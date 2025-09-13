@@ -1,0 +1,355 @@
+.awp-otp-login-form {
+  width: 400px;
+  margin: auto;
+}
+
+.awp-login-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.awp-login-branding .awp-logo img {
+    width: auto;
+    max-height: 80px;
+    transition: transform 0.3s;
+}
+
+.awp-login-branding #otp-icon {
+  font-size: 52px;
+  line-height: 1;
+  padding: 12px;
+  background: linear-gradient(180deg, #fff, transparent);
+  border-radius: 999px;
+  box-shadow: 0 -4px 2px 0 rgba(0,0,0,0.05);
+  color: #475569;
+}
+
+.awp-login-branding b {
+  color: #141b38;
+}
+
+
+.awp-login-title {
+  font-size: 30px;
+  color: #141b38;
+  line-height: 1.6;
+  font-weight: bold;
+  font-family: inherit;
+  margin: 0;
+}
+
+.awp-login-description {
+    font-size: 16px;
+    color: #434960;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}
+
+.awp-tabs {
+    margin-bottom: 16px;
+}
+
+.awp-tab-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: scroll;
+    margin: 0;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background-color: #f3f4f6;
+    padding: 2px !important;
+    min-height: 42px;
+    scrollbar-width: none;
+}
+
+.awp-tab-list .awp-tab {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: color 0.3s;
+    font-weight: 500;
+    color: #6f7899;
+    border-radius: 8px;
+    font-size: 14px;
+    margin: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.25;
+}
+
+.awp-tab-list .awp-tab.active {
+  background-color: #fff;
+  color: #141b38;
+  box-shadow: 0 0 0 1px #2c405e0f,0 1px 1px #2c405e0a,0 2px 4px #2c405e14;
+}
+
+.awp-tab-list .awp-tab:hover {
+    color: #141b38;
+}
+
+.awp-tab-content .awp-tab-pane {
+    display: none;
+}
+
+.awp-tab-content .awp-tab-pane.active {
+    display: block;
+}
+
+.awp-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #434960;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.awp-form-group input[type="text"],
+.awp-form-group input[type="email"],
+.awp-form-group input[type="password"],
+.awp-form-group input[type="url"],
+.awp-form-group textarea {
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    background-color: #fff;
+    font-family: inherit;
+    width: 100%;
+    height: 48px;
+    max-height: 48px;
+}
+#awp_phone {
+  width: 100%;
+}
+.awp-form-group input[type="text"]:focus,
+.awp-form-group input[type="email"]:focus,
+.awp-form-group input[type="password"]:focus,
+.awp-form-group input[type="url"]:focus,
+.awp-form-group textarea:focus {
+    border-color: #004444;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+#awp_whatsapp {
+  min-width: 100%;
+}
+
+.awp-btn {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1.2;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.awp-btn:hover {
+    opacity: .8;
+}
+
+.awp-btn [class*=" ri-"], .awp-btn [class^="ri-"] {
+    font-weight: 500 !important;
+    font-size: 20px;
+}
+
+#awp-otp-login-form-whatsapp .awp-submit-button {
+  background-color: #22c55e;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease,color 0.3s ease;
+}
+
+.awp-resend-otp-btn {
+  background: #f1f1f1;
+  color: #141b38 !important;
+  border: 1px solid #ddd !important;
+  margin-top: 8px;
+}
+
+
+
+/* Container for the messages */
+#awp_login_message_whatsapp,
+#awp_login_message_email,
+#awp_login_message_email_password {
+    margin: 16px 0;
+    text-align: center;
+}
+
+/* Error & success messages */
+#awp_login_message_whatsapp .error,
+#awp_login_message_email .error,
+#awp_login_message_email_password .error {
+    color: #b91c1c;
+    font-weight: 600;
+    background-color: #fecaca;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 14px;
+}
+
+#awp_login_message_whatsapp .success,
+#awp_login_message_email .success,
+#awp_login_message_email_password .success {
+    color: #15803d;
+    font-weight: 600;
+    background-color: #e0faec;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.awp-resend-timer {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.awp-otp-login-form .awp-edit-button {
+    cursor: pointer;
+    color: #05f;
+    text-decoration: none;
+    transition: opacity .5s ease;
+}
+
+.awp-otp-login-form .awp-edit-button:hover {
+    opacity: .7;
+}
+
+#signup_toggle,
+#login_toggle {
+  color: #05f;
+}
+
+#signup_toggle:hover ,
+#login_toggle:hove {
+  opacity: .8;
+}
+
+.awp-switch-form {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .375rem;
+}
+
+/* Separator line */
+.awp-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.awp-separator::before,
+.awp-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+.awp-separator::before {
+    margin-right: 16px;
+}
+
+.awp-separator::after {
+    margin-left: 16px;
+}
+
+.awp-separator span {
+    color: #7f8c8d;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.show-hide-icon {
+  position: absolute;
+  top: 50%;
+  margin-inline-end: 16px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+.show-hide-icon:hover {
+  color: #000;
+}
+
+.iti {
+  width: 100%;
+}
+    
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .awp-otp-login-form {
+        width: 100%;
+    }
+    
+    .awp_redirect_rule {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .awp_redirect_rule .rule-fields {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .awp_redirect_rule .rule-fields select.awp_redirect_role,
+    .awp_redirect_rule .rule-fields input.awp_redirect_url {
+        width: 100%;
+    }
+
+    .awp-login-method-radio {
+        flex-direction: column;
+    }
+
+    .awp-login-method-radio .awp-radio-label {
+        width: 100%;
+    }
+}

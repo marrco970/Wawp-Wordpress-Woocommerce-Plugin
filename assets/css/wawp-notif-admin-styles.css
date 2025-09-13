@@ -1,0 +1,704 @@
+.wawp-notif-tabs,
+.wawp-notif-tab-content {
+    width: 100%;
+}
+
+#save_settings_button {
+  background: #22C55E;
+  color: #fff;
+  min-width: 100px;
+  height: 40px;
+  min-height: 28px;
+  border-radius: 6px;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.00), 0px 0px 0px 0px rgba(0, 0, 0, 0.00), 0px 0px 0px 1px #D8DEE4, 0px 1px 1px 0px rgba(16, 17, 26, 0.16);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all .15s cubic-bezier(.4,0,.2,1);
+  white-space: nowrap;
+  border: 0;
+  width: 100%;
+}
+
+.wawp-notif-settings-page .wawp-notif-tab-content { 
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.wawp-notif-settings-page .wawp-notif-tab-content.active { 
+    display: flex; 
+}
+
+.wawp-notif-card-content tr {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1.25rem;
+}
+
+.wawp-notif-card-content td, .wawp-notif-card-content th {
+    padding: 0;
+    text-align: start;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+/* Let WP’s media-modal & Thickbox float above our popup backdrop */
+.media-modal,
+.media-modal-backdrop,
+#TB_window {
+    z-index: 100050 !important;
+}
+
+#wawp-notif-copy-destination-lang {
+  margin-bottom: 15px;
+}
+      #wawp-notif-add-lang-popup,
+        #wawp-notif-edit-template-popup,
+        #wawp-notif-copy-lang-popup {
+            position: fixed; /* Makes it float on top of everything */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+            z-index: 100000; /* Ensures it's on top of other WP UI */
+
+            /* Center the content box inside the overlay */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* The white content box */
+        .wawp-notif-popup-inner {
+            background: #ffffff;
+            padding: 25px 35px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+            min-width: 500px; /* Set a minimum width */
+            max-width: 95%;   /* Ensure it's responsive */
+        }
+
+        .wawp-notif-popup-inner h3 {
+            margin-top: 0;
+            font-size: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+         .wawp-notif-popup-inner .button-primary {
+            font-size: 14px;
+            padding: 4px 15px;
+        }
+#awp-notif-edit-template-popup #wawp-popup-rule-header {
+	font-size: 13px;
+	font-weight: 500;
+	color: #555;
+}
+/* ---- “Send To / Send By” inline layout ---------------------------- */
+.wawp-send-row{
+    display:flex;
+    flex-wrap:wrap;          /* still stacks on mobile */
+    align-items:center;
+    gap:12px;                /* space between the two Select2 boxes */
+}
+.wawp-send-row .select2-container{
+    display:inline-block;
+    min-width:140px;         /* tweak to taste */
+}
+.wawp-notif-card-header      { cursor: move; }             /* “grab” cursor */
+.wawp-card-placeholder       {
+    background:#f8f8f8;
+    border:2px dashed #c8c8c8;
+    margin:4px 0;
+}
+
+.wawp-billing-country-whitelist-filter-table,
+.wawp-billing-country-blocklist-filter-table,
+.wawp-product-whitelist-filter-table,
+.wawp-product-blocklist-filter-table,
+.wawp-payment-gateway-filter-table { display:none; }
+
+.notif-header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.notif-header-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: fit-content;
+}
+
+/* ICONS INLINE */
+.icons-group {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    background: #f9fafb;
+    color: #4a5565;
+    border: 1px solid rgba(74, 85, 101, 0.1);
+    border-radius: .5rem;
+}
+
+.channel-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+.channel-icon .icon-svg, .trigger-icon .icon-svg {
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    padding: .375rem;
+    border: 1px solid rgba(74, 85, 101, 0.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.trigger-badges {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  width: fit-content;
+}
+
+.trigger-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: .375rem;
+  padding: 2px 8px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 500;
+  gap: 2px;
+  background: #f9fafb;
+  color: #4a5565;
+  border: 1px solid rgba(74, 85, 101, 0.1);
+}
+   
+.trigger-badge i {
+    font-size: 12px !important;
+}  
+        
+.wawp-filter-toggle-row{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: space-between;
+}
+.wawp-filter-toggle-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #f9fafb;
+    color: #4a5565;
+    border: 1px solid rgba(74, 85, 101, 0.1);
+    width: 100%;
+    gap: 8px;
+    justify-content: space-between;
+}
+.form-table p {
+  font-size: 11px !important;
+}
+
+.form-table.wawp-filter-toggle-row-container tr {
+    margin: 0;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e3e3e3;
+}
+
+.awp-woo-filters {
+  padding: 1rem;
+  border-radius: .5rem;
+  background: #f9fafb;
+  color: #4a5565;
+  border: 1px solid rgba(74, 85, 101, 0.1);
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.awp-woo-filters tr {
+  margin: 0;
+}
+
+.button-small.wawp-notif-edit-button {
+    min-width: fit-content;
+}
+.wawp-notif-duplicate-rule-button {
+  min-width: fit-content;
+}
+.wawp-notif-remove-rule-button {
+  min-width: fit-content;
+}
+.wawp-filter-toggle-row .toggle-label { 
+    margin: 0;
+    font-weight: 500;
+    color: var(--heading);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+}    
+        
+        
+
+
+/* Focus state styling */
+.wawp-notif-settings-page .wawp-admin-user-select + .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #007cba;    /* WP focus color */
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+
+/* Clearfix for the rendered items container, if tags are floated */
+.wawp-notif-settings-page .wawp-admin-user-select + .select2-container .select2-selection__rendered::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* Adjust width of the Select2 wrapper if needed, though 100% usually works from the original element */
+.wawp-notif-settings-page .wawp-admin-user-select + .select2-container {
+    width: 100% !important; /* Ensure it takes full width of the td */
+}
+select.wawp-admin-user-select[multiple] {
+    visibility: hidden; /* Hide the original select until Select2 takes over */
+    height: 0;
+    width: 0;
+    position: absolute; /* Take it out of flow */
+    left: -9999px;
+}
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* PAGE HEADER & “ADD NEW LANGUAGE” BUTTON (FLEX) */
+        .wawp-notif-page-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+        .wawp-notif-page-header h1 {
+            display: flex;
+            align-items: center;
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .wawp-notif-page-header h1 .icon-svg {
+            margin-right: 8px;
+        }
+
+        .wawp-notif-global-flex {
+            display: flex;
+            flex-direction: column;
+            padding: 1.25rem;
+            width: 100%;
+            border-radius: .75rem;
+            border: 1px solid #DBDFE9;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(16, 17, 26, 0.03);
+        }
+        .wawp-notif-global-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.25rem;
+        }
+        .wawp-notif-global-item select {
+            max-width: 100%;
+        }
+
+.wawp-notif-tab-container {
+    position: relative;
+    display: inline-block;
+}
+.wawp-notif-remove-lang-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 1px;
+    color: #f00;
+    background: transparent;
+    border-radius: 4px;
+}
+.wawp-notif-remove-lang-button:hover {
+    background: #f5f5f5;
+}
+.wawp-notif-main-badge {
+    background: #ffeb78;
+    color: #4f4700;
+}
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* “NOTIFICATION RULES FOR …” HEADER (FLEX) */
+        .wawp-notif-header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem;
+            width: 100%;
+            border-radius: .75rem;
+            border: 1px solid #DBDFE9;
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(16, 17, 26, 0.03);
+        }
+        .wawp-notif-header-text h3 {
+            margin: 0;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .wawp-notif-header-action {
+            margin-left: 0;
+            margin-right: 0;
+            display: grid;
+            gap: 10px;
+        }
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* COLLAPSIBLE CARD WRAPPER */
+        
+        .wawp-notif-card-wrapper {
+            background: #fff;
+            border-radius: .75rem;
+            border: 1px solid #e3e3e3;
+            overflow: hidden;
+        }
+        .wawp-notif-card-wrapper.expanded {
+            outline: 2px solid #0b7;
+            box-shadow: 0 0 0 6.55px #0b72;
+            margin: .5rem 0;
+        }
+        .wawp-notif-card-header {
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 1rem;
+        }
+        .wawp-notif-card-header h4 {
+            margin: 0;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .wawp-notif-card-header .wawp-switch {
+            margin-left: 12px;
+        }
+        .wawp-notif-card-wrapper.collapsed .wawp-notif-card-content { display: none; }
+        .wawp-notif-card-wrapper.expanded .wawp-notif-card-content { 
+            display: block;
+            padding: 1.25rem;
+            border-top: 1px solid #e3e3e3;
+        }
+        .awp-notif-actions {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-inline-start: auto;
+            margin-inline-end: 12px;
+        }
+        .wawp-template-status {
+            display: flex;
+            align-items: center;
+            gap: .25rem;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .wawp-template-status i {
+          font-size: 13px !important;
+        }
+
+        .template-status-wrapper {
+            padding: 1rem .5rem .5rem;
+            border-radius: .5rem;
+            background: #f9fafb;
+            color: #4a5565;
+            border: 1px solid rgba(74, 85, 101, 0.1);
+            margin-top: -8px;
+        }
+        .template-status-wrapper div {
+            margin-top: .375rem;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: .5rem;
+            align-items: center;
+        }
+        
+        .template-status-wrapper p {
+            grid-column: 1 / -1;
+            font-size: 11px !important;
+            color: #646970;
+        }
+        
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* CSS FOR SELECT OPTION ICONS */
+        select.wawp-rule-trigger-select option {
+            padding-left: 24px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+
+        select.wawp-rule-sender-dropdown option {
+            padding-left: 24px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+        select.wawp-rule-sender-dropdown option.sendto-user-whatsapp {
+            background-image: url('{$icon_base}whatsapp.svg');
+        }
+        select.wawp-rule-sender-dropdown option.sendto-admin-whatsapp {
+            background-image: url('{$icon_base}whatsapp.svg');
+        }
+        select.wawp-rule-sender-dropdown option.sendto-user-email {
+            background-image: url('{$icon_base}email.svg');
+        }
+        select.wawp-rule-sender-dropdown option.sendto-admin-email {
+            background-image: url('{$icon_base}email.svg');
+        }
+        select.wawp-rule-sender-dropdown option.sendto-user-both {
+            background-image: url('{$icon_base}whatsapp.svg'), url('{$icon_base}email.svg');
+            background-position: left center, right center;
+            background-size: 16px 16px;
+            padding-right: 24px;
+        }
+        select.wawp-rule-sender-dropdown option.sendto-admin-both {
+            background-image: url('{$icon_base}whatsapp.svg'), url('{$icon_base}email.svg');
+            background-position: left center, right center;
+            background-size: 16px 16px;
+            padding-right: 24px;
+        }
+        select.wawp-rule-sender-dropdown option.sendto-user-admin-whatsapp {
+    background-image: url('{$icon_base}whatsapp.svg');
+}
+select.wawp-rule-sender-dropdown option.sendto-user-admin-email {
+    background-image: url('{$icon_base}email.svg');
+}
+        select.wawp-rule-sender-dropdown option.sendto-user-admin-both {
+            background-image: url('{$icon_base}whatsapp.svg'), url('{$icon_base}email.svg');
+            background-position: left center, right center;
+            background-size: 16px 16px;
+            padding-right: 24px;
+        }
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* DELAY FIELDS */
+        .delay-fields {
+            display: none;
+        }
+        .delay-fields.active {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            padding: 1rem .5rem .5rem;
+            border-radius: .5rem;
+            background: #f9fafb;
+            color: #4a5565;
+            border: 1px solid rgba(74, 85, 101, 0.1);
+            margin-top: -8px;
+        }
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* IMAGE UPLOADER */
+        .wawp-notif-settings-page .image-url-field {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .wawp-notif-media-upload-button {
+            white-space: nowrap;
+        }
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* MULTI-SELECT USER FIELD (Select2) */
+        .wawp-admin-user-select {
+            width: 100% !important;
+        }
+
+        [class^="admin-user-row-"] {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            padding: 1rem .5rem .5rem;
+            border-radius: .5rem;
+            background: #f9fafb;
+            color: #4a5565;
+            border: 1px solid rgba(74, 85, 101, 0.1);
+            margin-top: -8px;
+        }
+        
+        [class^="admin-user-row-"] p {
+            font-size: 11px !important;
+        }
+
+        [class^="admin-user-row-"] td {
+            margin: 0 !important;
+        }
+
+
+        .template-status-wrapper label, [class^="admin-user-row-"] label {
+            font-size: 13px !important;
+        }
+        
+        .wawp-product-image-switch-row tr {
+            flex-direction: row;
+            align-items: center;
+            padding: 1rem;
+            border-radius: .5rem;
+            background: #f9fafb;
+            color: #4a5565;
+            border: 1px solid rgba(74, 85, 101, 0.1);
+            margin-top: 1.25rem;
+        }
+        
+        .wawp-product-image-switch-row p {
+            font-size: 11px;
+            margin-top: .5rem !important;
+        }
+        
+        .wawp-product-image-switch-row td {
+            width: fit-content;
+        }
+        
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* ADD LANGUAGE POPUP OVERLAY & CONTENT */
+        #wawp-notif-add-lang-popup {
+            display: none;
+            position: fixed;
+            z-index: 999999999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        #wawp-notif-add-lang-popup .wawp-notif-popup-inner {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            background: #fff;
+            padding: 1.25rem;
+            border-radius: .75rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            max-width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /*─────────────────────────────────────────────────────────────────────────*/
+        /* EDIT TEMPLATE POPUP OVERLAY & CONTENT */
+        #wawp-notif-edit-template-popup {
+            display: none;
+            position: fixed;
+            z-index: 10000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        #wawp-notif-edit-template-popup .wawp-notif-popup-inner {
+            background: #fff;
+            max-width: 600px; /* wider to fit navigation tabs */
+            margin: 160px auto;
+            padding: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        #wawp-notif-edit-template-popup .navigation-tabs {
+            display: flex;
+            border: 0;
+            margin: 1rem 0;
+            font-weight: 600;
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            font-size: 14px;
+            align-items: center;
+            background-color: #e5e7eb;
+            border-radius: .5rem;
+            padding: .25rem;
+            gap: .25rem;
+            width: 100%;
+        }
+        #wawp-notif-edit-template-popup .navigation-tabs button {
+            position: relative;
+            padding: .75rem !important;
+            text-decoration: none !important;
+            background-color: transparent !important;
+            border: 0;
+            cursor: pointer;
+            transition: all .15s cubic-bezier(.4,0,.2,1);
+            font-size: inherit;
+            margin: 0;
+            opacity: .7;
+            border-radius: .375rem;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .25rem;
+            width: 100%;
+            color: #50575e;
+            font-size: 13px;
+        }
+        #wawp-notif-edit-template-popup .navigation-tabs button.active {
+            opacity: 1;
+            background: #fff !important;
+            box-shadow: 0 0 0 1px #2c405e0f,0 1px 1px #2c405e0a,0 2px 4px #2c405e14;
+            color: #044;
+        }
+        #wawp-notif-edit-template-popup .step tr {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+        #wawp-notif-edit-template-popup .step th,
+        #wawp-notif-edit-template-popup .step td {
+            padding: 0;
+        }
+        #wawp-notif-edit-template-popup .step {
+            display: none;
+        }
+        #wawp-notif-edit-template-popup .step.active {
+            display: block;
+        }
+        #wawp-notif-edit-template-popup .step h4 {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        #wawp-notif-edit-template-popup .navigation-buttons {
+            margin-top: 20px;
+            text-align: right;
+        }
+        
+        #wawp-popup-rule-header {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+

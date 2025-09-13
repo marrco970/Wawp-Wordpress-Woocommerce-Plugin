@@ -1,0 +1,28 @@
+/* wawp-tour-rtl.css */
+
+.awp-tour-tooltip {
+    direction: rtl;
+    text-align: right;
+}
+
+.awp-tour-close {
+    left: 15px; /* Move close button to left in RTL */
+    right: auto;
+}
+
+/* Adjust tooltip positioning for RTL when positioned "right" */
+.awp-tour-tooltip[style*="right"][style*="translateY(-50%)"] {
+    /* This targets tooltips positioned to the left of the element in RTL */
+    transform: translateY(-50%) !important; /* Reset translateX if it was flipped */
+}
+
+/* If the tooltip needs to flip to the other side (right of element in RTL) */
+.awp-tour-tooltip[style*="left"][style*="translateY(-50%)"][style*="translateX(-100%)"] {
+    /* This targets tooltips positioned to the right of the element in RTL when flipped */
+    transform: translateY(-50%) translateX(100%) !important; /* Re-apply translateX for right positioning */
+}
+
+/* Adjust button order if needed, though flexbox should handle it */
+.awp-tour-buttons {
+    flex-direction: row-reverse; /* Reverse button order in RTL */
+}

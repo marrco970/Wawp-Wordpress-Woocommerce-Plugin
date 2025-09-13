@@ -1,0 +1,121 @@
+
+wide.form-row-password {
+  display: none !important;
+}
+/* Ensure the plugin can position the flag inside properly */
+.intl-tel-input {
+  width: 100% !important; /* or the exact width you need */
+  display: block;         /* so the container behaves as a block */
+}
+
+.intl-tel-input input[type="tel"],
+.intl-tel-input input {
+  width: 100% !important;
+  box-sizing: border-box;
+  padding-left: 50px !important; /* adjust as necessary so the flag doesn't overflow */
+}
+
+/* If you use a theme that modifies input heights/padding, you may need something like: */
+.intl-tel-input .iti__flag {
+  left: 10px; /* or whatever places it properly */
+}
+
+/* Make sure dropdown z-index is high enough if it’s opening behind other elements */
+.intl-tel-input .iti__country-list {
+  z-index: 999999;
+}
+
+.iti__selected-flag {
+  background-color: #601c1c00 !important;
+}
+.iti__selected-dial-code {
+  display: none !important;
+}
+.iti__selected-dial-code {
+  display: none !important;
+}
+/* 
+  1. Base/desktop default
+  2. Tablet (medium screens)
+  3. Mobile (small screens)
+*/
+
+/* 1. Base/Desktop styles */
+.wd-side-hidden {
+  --wd-side-hidden-w: 445px !important;
+}
+
+/* 2. Tablet breakpoints (example: <= 1024px) */
+@media (max-width: 1024px) {
+  .wd-side-hidden {
+    --wd-side-hidden-w: 300px !important;
+  }
+}
+
+/* 3. Mobile breakpoints (example: <= 767px) */
+@media (max-width: 767px) {
+  .wd-side-hidden {
+    --wd-side-hidden-w: 300px !important;
+  }
+}
+.iti__selected-country-primary {
+  gap: 3px !important;
+}
+
+.iti__selected-country {
+  background: #f000 !important;
+}
+.wd-col.col-register-text {
+  display: none !important;
+}
+#customer_login {
+  --wd-col-lg: 1 !important;
+}
+.wd-dropdown-register {
+  width: 450px !important;
+}
+.wd-login-title {
+  display: none !important;
+}
+
+.awp-phone-badge.not-verified {
+  display: flex;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 6px;
+  white-space: nowrap;
+  line-height: 18px;
+  background: #ffe7e7;
+  margin-top: 15px;
+}
+.awp-phone-badge.verified {
+  display: flex;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  gap: 6px;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #1d784a;
+  background: #E0FAEC;
+  margin-top: 15px;
+}
+
+
+
+.intl-tel-status {
+  font-size: 12px !important;
+  font-weight: 500;
+  text-align: start !important;
+}

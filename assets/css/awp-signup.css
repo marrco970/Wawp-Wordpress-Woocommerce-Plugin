@@ -1,0 +1,410 @@
+/* awp-signup.css */
+
+#awp-signup-container {
+  margin: auto;
+}
+
+#awp-signup-branding {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.Wawp-signup-logo-container {
+    text-align: center;
+}
+
+.Wawp-signup-logo {
+    width: auto;
+    max-height: 80px;
+    transition: transform 0.3s;
+}
+
+.wawp-signup-title {
+    font-size: 30px;
+    color: #141b38;
+    line-height: 1.6;
+    font-weight: bold;
+    font-family: inherit;
+    margin: 0;
+}
+
+.awp-description {
+    font-size: 16px;
+    color: #434960;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.awp-form-group {
+    margin-bottom: 16px;
+}
+
+.awp-form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #434960;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.awp-required {
+    color: #e74c3c;
+    margin-left: 5px;
+}
+
+.awp-error-message {
+    color: #ef4444;
+    font-size: 14px;
+    margin-top: 0;
+    display: none;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+
+.ri-loader-5-line {
+    font-size: 28px;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.awp-toggle-password {
+    position: absolute;
+    inset-inline-end: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #555;
+}
+
+.awp-toggle-password:hover {
+    color: #000;
+}
+
+
+.awp-password-container {
+    position: relative;
+}
+
+#password-strength-bar {
+    width: 100%;
+    position: relative;
+    background-color: #ededed;
+    height: 6px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.awp-password-strength-text {
+    font-size: 12px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1;
+    transition: opacity 0.3s ease;
+}
+
+#password-requirements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style-type: none;
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.1;
+    color: #434960;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 500;
+    background: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.awp-password-requirements .awp-requirement {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    width: calc((100% - 16px)/2);
+}
+
+.awp-password-requirements .awp-requirement .awp-check {
+    font-size: 18px;
+    text-align: center;
+    height: 18px;
+}
+
+.text-success {
+    color: #16a34a;
+}
+
+.text-danger {
+    color: #b3b3b3;
+}
+
+.awp-submit-button.awp-btn:hover {
+  opacity: 1 !important;
+}
+
+.awp-password-container input[type="password"] {
+  font-size: 11px !important;
+  letter-spacing: .1rem;
+}
+
+/* OTP Section Styles */
+#awp-otp-section {
+    max-width: 400px;
+    margin: 0 auto;
+    display: none;
+}
+.awp-otp-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.awp-otp-header b {
+  color: #141b38;
+}
+
+.awp-otp-resend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: nowrap;
+    color: #434960;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.awp-icon-wrapper {
+    display: flex;
+    padding: 8px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #e2e8f0, transparent);
+    margin-bottom: 8px;
+}
+
+.awp-otp-header #otp-icon {
+    font-size: 52px;
+    line-height: 1;
+    padding: 12px;
+    background: linear-gradient(180deg, #fff, transparent);
+    border-radius: 999px;
+    box-shadow: 0 -4px 2px 0 rgba(0,0,0,0.05);
+    color: #475569;
+}
+
+.awp-otp-header .ri-whatsapp-line {
+  color: #22c55e !important;
+}
+
+#awp-otp-sent-heading {
+  font-size: 30px;
+  color: #141b38;
+  line-height: 1.6;
+  font-weight: bold;
+  font-family: inherit;
+  margin: 0;
+}
+
+#awp-otp-sent-message {
+  font-size: 16px;
+  color: #434960;
+  line-height: 1.6;
+  margin: 0;
+  text-align: center;
+}
+
+/* Button Styles */
+.awp-edit-contact-btn {
+    cursor: pointer;
+    font-weight: 500;
+    color: #4a33fa;
+    text-decoration: none;
+    transition: opacity .5s ease;
+}
+
+.awp-edit-contact-btn:hover {
+    opacity: .7;
+}
+
+.awp-resend-otp-btn {
+  background: #f1f1f1;
+  color: #141b38 !important;
+  border: 1px solid #ddd !important;
+  margin-top: 8px;
+}
+
+.awp-resend-otp-btn:hover {
+    background: #f4f4f4;
+}
+
+/* Switch Button Styles */
+.switch-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.switch-button input[type="checkbox"] {
+    display: none;
+}
+
+.switch-button label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.switch-button label i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s;
+    font-size: 1.2em;
+    pointer-events: none;
+}
+
+.switch-button input[type="checkbox"]:checked + label i.bi-toggle-on {
+    opacity: 1;
+}
+
+.switch-button input[type="checkbox"]:checked + label i.bi-toggle-off {
+    opacity: 0;
+}
+
+.switch-button label i.bi-toggle-off {
+    opacity: 1;
+}
+
+.switch-button label i.bi-toggle-on {
+    opacity: 0;
+}
+
+.switch-button label::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    left: 4px;
+    top: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+.switch-button input[type="checkbox"]:checked + label::after {
+    transform: translateX(26px);
+}
+
+/* Admin Settings Page Styles */
+.awp-admin-page .awp-fields-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.awp-admin-page .awp-fields-table th,
+.awp-admin-page .awp-fields-table td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.awp-admin-page .awp-fields-table th {
+    background-color: #f1f1f1;
+}
+
+.awp-admin-page .awp-fields-table td {
+    vertical-align: middle;
+}
+
+.awp-admin-page .awp-admin-select,
+.awp-admin-page .awp-admin-textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.awp-admin-page .awp-admin-textarea {
+    resize: vertical;
+}
+
+.awp-admin-page .description {
+    font-size: 0.9em;
+    color: #555555;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .awp-form {
+        padding: 15px;
+    }
+
+    .awp-toggle-password {
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+    }
+
+    .switch-button label {
+        width: 50px;
+        height: 28px;
+    }
+
+    .switch-button label::after {
+        width: 22px;
+        height: 22px;
+        left: 3px;
+        top: 3px;
+    }
+
+    .switch-button label i.bi-toggle-on,
+    .switch-button label i.bi-toggle-off {
+        font-size: 1em;
+    }
+
+    .awp-admin-page .awp-fields-table th,
+    .awp-admin-page .awp-fields-table td {
+        padding: 8px;
+    }
+}
+/* awp-admin.css */
+
+/* Style for the drag handle */
+.awp-drag-handle {
+    width: 30px;
+    text-align: center;
+    cursor: move;
+}
+
+/* Optional: Highlight row on hover */
+.awp-fields-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+

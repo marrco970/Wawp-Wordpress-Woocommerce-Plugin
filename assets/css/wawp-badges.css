@@ -1,0 +1,101 @@
+/* Existing badges & phone CSS (unchanged) */
+.wawp-badge-admin {
+    display: flex;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 6px;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+.wawp-badge-admin.not-verified {
+  color: #c30000;
+  background: #ffe7e7;
+}
+
+.wawp-badge-admin.verified {
+  color: #1d784a;
+  background: #E0FAEC;
+}
+
+table.fixed {
+  table-layout: auto !important;
+}
+
+.wawp-phone-admin {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.awp-send-msg-btn {
+  text-decoration: none !important;
+  padding: 8px 12px !important;
+  background: #fff !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  color: #072929 !important;
+  border: 1px solid #ddd !important;
+  cursor: pointer !important;
+  outline: 0 !important;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05) !important;
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  min-width: 120px;
+  justify-content: center;
+  height: 38px;
+}
+
+.awp-send-msg-btn svg {
+  width: 18px;
+  color: #1fc16b;
+}
+
+.whatsapp_verified.column-whatsapp_verified {
+  vertical-align: middle;
+}
+
+.awp_phone_number.column-awp_phone_number {
+  vertical-align: middle;
+}
+
+.wp-list-table.widefat.fixed.striped.table-view-list.users td {
+  vertical-align: middle !important;
+}
+
+.wawp-badge-admin span {
+  height: 20px;
+}
+
+/* The overlay (background behind modal) */
+#awp-send-msg-overlay {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99998;
+  background: rgba(0,0,0,.5);
+}
+
+/* The actual popup (modal) */
+#awp-send-msg-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  background: #fff;
+  padding: 20px;
+  width: 400px; /* or whatever width you like */
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}

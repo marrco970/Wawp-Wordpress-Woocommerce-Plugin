@@ -1,0 +1,7149 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wawp OTP Verification, Order Notifications, and Country "
+"Code Selector for WooCommerce\n"
+"POT-Creation-Date: 2025-07-31 10:58+0300\n"
+"PO-Revision-Date: 2025-01-10 10:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-awp.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: class-awp.php:252 class-awp.php:253 includes/class-awp-otp-login.php:17
+#: includes/class-awp-otp-login.php:18
+#: includes/class-awp-phone-verification-bar.php:207
+#: includes/class-awp-signup.php:104 includes/class-awp-signup.php:105
+#: includes/class-awp-signup.php:472 includes/class-awp-signup.php:473
+#: includes/class-awp-signup.php:945 includes/class-awp-signup.php:951
+#: includes/class-awp-signup.php:1202 includes/class-awp-signup.php:1208
+msgid "Your OTP code is: {{otp}}"
+msgstr ""
+
+#: class-awp.php:263 includes/class-awp-otp-login.php:25
+msgid "Welcome back"
+msgstr ""
+
+#: class-awp.php:264 includes/class-awp-otp-login.php:26
+msgid "Choose a sign-in method to continue"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:62
+#: includes/class-awp-checkout-otp.php:532
+#: includes/class-awp-checkout-otp.php:626 includes/class-awp-others.php:83
+#: includes/class-awp-others.php:525 includes/class-awp-others.php:561
+#: includes/class-awp-system-info.php:1412
+#: includes/class-wawp-dashboard.php:194
+msgid "Not Verified"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:75
+#: includes/class-awp-checkout-otp.php:80
+#: includes/class-awp-checkout-otp.php:86 includes/class-wawp-otp.php:82
+#: includes/helpers/class-awp-custom-pages-settings.php:72
+msgid "Checkout OTP"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:101 includes/class-awp-signup.php:173
+#: includes/helpers/class-awp-custom-pages-settings.php:89
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:106
+msgid "Hi {{name}} {{last}}, {{otp}} is your checkout Generated OTP code."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:139 includes/class-awp-otp-login.php:171
+#: includes/class-awp-signup.php:183
+msgid "Choose Sender"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:140
+msgid "Select the WhatsApp account used to send OTP codes for checkout."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:148
+msgid "No online instances are available."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:150
+msgid "Select Instance"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:168
+msgid "Manage Checkout Method"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:169
+msgid "Configure OTP settings for the checkout process."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:176
+msgid "Enable OTP verification for Checkout"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:183 includes/class-awp-otp-login.php:253
+#: includes/class-awp-signup.php:332
+msgid "Message Template"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:192
+msgid "OTP Verification Mode"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:195
+msgid "Enable for all users"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:196
+msgid "Enable for guests only"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:197
+msgid "Enable for logged-in users only"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:203
+msgid "Disable OTP for Payment Methods"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:207
+msgid "No payment methods found."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:221
+msgid "Disable OTP for Shipping Methods"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:230
+#: includes/class-awp-checkout-otp.php:240
+msgid "unknown_method"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:233
+#: includes/class-awp-checkout-otp.php:243
+msgid "Unknown Title"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:247
+msgid "No shipping methods found."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:264
+#: includes/class-awp-log-manager.php:195
+#: includes/helpers/class-awp-custom-pages-settings.php:61
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:285
+#: includes/class-awp-checkout-otp.php:444
+msgid "OTP sent successfully via WhatsApp."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:286 includes/class-awp-otp-login.php:721
+#: includes/class-awp-otp-login.php:783
+msgid "Failed to send OTP. Please try again."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:287
+#: includes/class-awp-checkout-otp.php:500
+msgid "OTP verified successfully."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:288
+#: includes/class-awp-checkout-otp.php:502 includes/class-awp-signup.php:1071
+msgid "Incorrect OTP. Please try again."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:296
+#: includes/class-awp-checkout-otp.php:568
+#: includes/class-awp-checkout-otp.php:663 includes/class-awp-others.php:76
+#: includes/class-awp-system-info.php:1420
+#: includes/class-awp-system-info.php:1421
+#: includes/class-wawp-dashboard.php:190
+msgid "Verified"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:324
+msgid "Confirm your order"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:325
+msgid ""
+"To complete your order, enter the 6-digit code sent via WhatsApp to <span id="
+"\"user_phone_number\"></span>"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:329
+msgid "Enter 6-digit code"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:332
+msgid "Confirm order"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:335
+msgid "Resend code"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:352
+msgid "Phone number is missing."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:358 includes/class-awp-otp-login.php:724
+#: includes/class-awp-signup.php:877 includes/class-awp-signup.php:988
+msgid "This phone number is blocked by the system."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:371
+msgid "No instance selected. Please choose an instance in settings."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:381
+msgid "Selected instance is not available or offline."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:384
+msgid "Hi {{name}} {{last}}, {{otp}} is your checkout OTP."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:424
+msgid "Failed to send OTP via WhatsApp. Please try again."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:438
+#: includes/class-awp-checkout-otp.php:643
+msgid "Checkout - OTP Request"
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:561
+msgid "You changed your phone number. Please verify OTP again."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:574
+#: includes/class-awp-checkout-otp.php:581
+msgid "Please verify the OTP before placing your order."
+msgstr ""
+
+#: includes/class-awp-checkout-otp.php:644
+#: includes/class-awp-log-manager.php:77 includes/class-awp-log-manager.php:479
+#: includes/class-awp-log-manager.php:501 includes/class-awp-otp-login.php:928
+#: includes/class-awp-system-info.php:1228
+#: includes/class-wawp-chat-widget.php:85
+#: includes/class-wawp-chat-widget.php:112
+#: includes/class-wawp-chat-widget.php:400
+#: includes/class-wawp-chat-widget.php:608
+msgid "Unknown"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:80
+msgid "✓ Valid phone number."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:81
+msgid "✗ Invalid phone number."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:82
+msgid "Search country"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:83
+msgid "Number updates automatically after writing."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:91
+#: includes/class-wawp-setup-wizard.php:544
+msgid "Default Country Code"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:92
+msgid "Enable IP Detection"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:93
+msgid "Phone Fields"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:94
+msgid "Country Code Alignment"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:95
+msgid "Country Code Dropdown"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:110
+msgid "Auto (Based on site language)"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:120
+#: includes/class-wawp-chat-widget.php:710
+msgid "Left"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:130
+#: includes/class-wawp-chat-widget.php:714
+msgid "Right"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:149
+#: includes/class-wawp-setup-wizard.php:521 includes/country-code-list.php:1175
+#: includes/country-code-list.php:1235
+msgid "United States"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:149
+#: includes/class-wawp-setup-wizard.php:521 includes/country-code-list.php:67
+#: includes/country-code-list.php:73 includes/country-code-list.php:79
+#: includes/country-code-list.php:91 includes/country-code-list.php:115
+#: includes/country-code-list.php:133 includes/country-code-list.php:151
+#: includes/country-code-list.php:163 includes/country-code-list.php:175
+#: includes/country-code-list.php:193 includes/country-code-list.php:241
+#: includes/country-code-list.php:259 includes/country-code-list.php:271
+#: includes/country-code-list.php:295 includes/country-code-list.php:313
+#: includes/country-code-list.php:343 includes/country-code-list.php:349
+#: includes/country-code-list.php:355 includes/country-code-list.php:361
+#: includes/country-code-list.php:451 includes/country-code-list.php:463
+#: includes/country-code-list.php:481 includes/country-code-list.php:487
+#: includes/country-code-list.php:493 includes/country-code-list.php:553
+#: includes/country-code-list.php:727 includes/country-code-list.php:811
+#: includes/country-code-list.php:871 includes/country-code-list.php:883
+#: includes/country-code-list.php:889 includes/country-code-list.php:937
+#: includes/country-code-list.php:943 includes/country-code-list.php:949
+#: includes/country-code-list.php:1057 includes/country-code-list.php:1123
+#: includes/country-code-list.php:1177 includes/country-code-list.php:1183
+#: includes/country-code-list.php:1201 includes/country-code-list.php:1231
+#: includes/country-code-list.php:1237 includes/country-code-list.php:1267
+#: includes/country-code-list.php:1273 includes/country-code-list.php:1297
+#: includes/country-code-list.php:1315 includes/country-code-list.php:1327
+#: includes/country-code-list.php:1351 includes/country-code-list.php:1387
+#: includes/country-code-list.php:1393 includes/country-code-list.php:1405
+#: includes/country-code-list.php:1411 includes/country-code-list.php:1435
+#: includes/country-code-list.php:1447 includes/country-code-list.php:1471
+#: includes/country-code-list.php:1477 includes/country-code-list.php:1507
+#: includes/country-code-list.php:1513
+msgid "Americas"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:150 includes/country-code-list.php:17
+msgid "Egypt"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:150 includes/country-code-list.php:19
+#: includes/country-code-list.php:25 includes/country-code-list.php:121
+#: includes/country-code-list.php:529 includes/country-code-list.php:535
+#: includes/country-code-list.php:565 includes/country-code-list.php:601
+#: includes/country-code-list.php:625 includes/country-code-list.php:847
+#: includes/country-code-list.php:865 includes/country-code-list.php:913
+#: includes/country-code-list.php:1075 includes/country-code-list.php:1135
+#: includes/country-code-list.php:1165 includes/country-code-list.php:1213
+#: includes/country-code-list.php:1531
+msgid "Middle East"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:156 includes/class-awp-menu.php:639
+#: includes/class-awp-menu.php:650 includes/class-awp-menu.php:665
+#: includes/class-awp-menu.php:676 includes/class-awp-menu.php:699
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:161 includes/class-awp-menu.php:332
+#: includes/class-awp-menu.php:518 includes/class-wawp-dashboard.php:238
+msgid "Advanced Phone Field"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:162
+msgid "Add country code selection directly into any phone field."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:163
+#: includes/class-wawp-chat-widget.php:342
+#: includes/class-wawp-flow-builder.php:137
+msgid "Learn more"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:194
+msgid "No country code enabled"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:275
+msgid "Field ID"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:276 includes/class-awp-signup.php:257
+msgid "Field Name"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:277
+#: includes/class-awp-system-info.php:343
+#: includes/class-awp-system-info.php:350
+#: includes/class-awp-system-info.php:880
+#: includes/class-awp-system-info.php:1263
+#: includes/class-awp-system-info.php:1274
+#: includes/class-awp-system-info.php:1279
+#: includes/class-awp-system-info.php:1288 views/wawp-enqueue-scripts.php:45
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:277
+#: includes/class-awp-system-info.php:467
+#: includes/class-awp-system-info.php:488
+#: includes/class-awp-system-info.php:518
+#: includes/class-awp-system-info.php:555
+#: includes/class-awp-system-info.php:880
+#: includes/class-awp-system-info.php:903
+#: includes/class-awp-system-info.php:983
+#: includes/class-awp-system-info.php:1022
+#: includes/class-awp-system-info.php:1263
+#: includes/class-awp-system-info.php:1274
+#: includes/class-awp-system-info.php:1279 views/wawp-enqueue-scripts.php:46
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:282
+msgid "Add New Phone Field"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:291
+#: includes/class-awp-system-info.php:609
+msgid "Other"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:296
+msgid "Search countries..."
+msgstr ""
+
+#: includes/class-awp-countrycode.php:297
+msgid "Select All"
+msgstr ""
+
+#: includes/class-awp-countrycode.php:298
+msgid "Deselect All"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:25 includes/class-awp-log-manager.php:561
+msgid "No permission."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:30
+msgid "No IDs provided."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:35
+msgid "Deleted."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:72
+msgid "ERROR"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:73
+msgid "PENDING"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:74
+#: includes/class-wawp-email-log-list-table.php:266
+msgid "Sent"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:75
+msgid "Delivered"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:76
+msgid "READ"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:87 includes/class-awp-log-manager.php:91
+#: includes/class-awp-log-manager.php:96
+#: includes/class-wawp-campaigns-admin.php:15
+#: includes/class-wawp-campaigns-admin.php:19
+#: includes/class-wawp-campaigns-admin.php:24
+#: includes/class-wawp-flow-builder.php:63
+#: includes/class-wawp-flow-builder.php:67
+#: includes/class-wawp-flow-builder.php:72
+msgid "Whatsapp Activity Logs"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:117
+msgid "Settings saved"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:148
+msgid "WhatsApp Messages History"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:149
+msgid ""
+"Track all messages and quickly access info via live search, filters, and "
+"logs. Also see status for any errors."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:158
+msgid "Enable Auto Resend"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:166
+msgid "Never"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:167
+msgid "Every 1 Day"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:168
+msgid "Every 15 Days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:169
+msgid "Every 30 Days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:170
+msgid "Every 60 Days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:171
+msgid "Every 90 Days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:174
+msgid "Auto Clear Logs"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:181
+msgid "Auto Resend Limit:"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:185
+msgid "Choose Instance:"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:186
+msgid "Select"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:267
+msgid "Live search..."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:268
+msgid "Delete Selected"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:273
+msgid "Results Per Page"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:288
+#: includes/class-awp-log-manager.php:312
+#: includes/class-awp-log-manager.php:323
+#: includes/class-awp-log-manager.php:334
+#: includes/class-awp-log-manager.php:360
+msgid "Apply"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:293
+msgid "Date Range"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:295
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:299
+msgid "is in the last"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:300
+msgid "is equal to"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:301
+msgid "is between"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:302
+msgid "is on or after"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:303
+msgid "is before or on"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:307 views/wawp-enqueue-scripts.php:80
+msgid "hours"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:308 views/wawp-enqueue-scripts.php:81
+msgid "days"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:309
+msgid "months"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:317
+#: includes/class-wawp-campaigns-admin.php:729
+msgid "Message Type"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:319
+#: includes/class-awp-log-manager.php:330
+#: includes/class-awp-log-manager.php:341
+#: includes/class-wawp-campaigns-admin.php:475
+msgid "All"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:328
+#: includes/class-awp-log-manager.php:354
+#: includes/class-awp-log-manager.php:384
+#: includes/class-awp-system-info.php:895
+#: includes/class-awp-system-info.php:948
+#: includes/class-awp-system-info.php:1000
+#: includes/class-awp-system-info.php:1042
+#: includes/class-wawp-campaigns-admin.php:86
+#: includes/class-wawp-email-log-list-table.php:29
+msgid "Status"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:339
+msgid "Columns"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:345
+#: includes/class-awp-log-manager.php:375
+#: includes/class-wawp-campaigns-admin.php:83
+msgid "ID"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:346
+#: includes/class-awp-log-manager.php:376
+msgid "User ID"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:347
+#: includes/class-awp-log-manager.php:377
+msgid "Order"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:348
+#: includes/class-awp-log-manager.php:378 includes/class-instances.php:151
+#: includes/class-instances.php:179 includes/class-instances.php:311
+#: includes/class-instances.php:576 includes/class-wawp-campaigns-admin.php:84
+#: includes/class-wawp-chat-widget.php:599
+msgid "Name"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:349
+#: includes/class-awp-log-manager.php:379
+msgid "Date"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:350
+#: includes/class-awp-log-manager.php:380
+msgid "Number"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:351
+#: includes/class-awp-log-manager.php:381
+msgid "Message"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:352
+#: includes/class-awp-log-manager.php:382
+msgid "Attach"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:353
+#: includes/class-awp-log-manager.php:383
+#: includes/class-wawp-email-log-list-table.php:27
+msgid "Type"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:355
+#: includes/class-awp-log-manager.php:385
+msgid "Delivery Status"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:356
+#: includes/class-awp-log-manager.php:386
+#: includes/class-awp-system-info.php:1000
+#: includes/class-awp-system-info.php:1064 includes/class-instances.php:243
+msgid "Action"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:357
+#: includes/class-awp-log-manager.php:387
+#: includes/class-awp-log-manager.php:467
+msgid "Info"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:358
+#: includes/class-awp-log-manager.php:388
+msgid "Ref ID"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:365
+#: includes/class-wawp-email-log-list-table.php:280
+msgid "Clear Filters"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:403
+#: includes/class-awp-log-manager.php:451
+msgid "Success"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:431
+#: includes/class-awp-log-manager.php:471
+#: includes/class-awp-system-info.php:358
+#: includes/class-awp-system-info.php:433
+#: includes/class-awp-system-info.php:477
+#: includes/class-awp-system-info.php:506
+#: includes/class-awp-system-info.php:527
+#: includes/class-awp-system-info.php:546
+#: includes/class-awp-system-info.php:578
+#: includes/class-awp-system-info.php:693
+#: includes/class-awp-system-info.php:710
+#: includes/class-wawp-email-log-list-table.php:267
+#: includes/class-wawp-notification-preferences.php:36
+msgid "Error"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:448
+msgid "Need Upgrade"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:456
+msgid "This message seems to have failed. Please use Resend."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:458
+msgid "Failed"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:463
+msgid "Blocked"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:475
+msgid "Failure"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:539
+msgid "Resend"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:565
+#: includes/class-awp-system-info.php:215
+#: includes/class-awp-system-info.php:235
+#: includes/class-awp-system-info.php:264 includes/class-instances.php:1176
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:569
+msgid "Invalid log ID."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:574
+msgid "Log not found."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:578
+msgid "No instance selected for resend."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:582
+msgid "Cannot find token for selected instance."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:610
+msgid "Message Re-sent (Original ID:"
+msgstr ""
+
+#: includes/class-awp-log-manager.php:617
+msgid "Notification resent successfully."
+msgstr ""
+
+#: includes/class-awp-log-manager.php:619
+msgid "Unknown error occurred."
+msgstr ""
+
+#: includes/class-awp-menu.php:60 includes/class-awp-menu.php:714
+msgid "Unauthorized access."
+msgstr ""
+
+#: includes/class-awp-menu.php:110 includes/class-awp-menu.php:735
+msgid "Wawp"
+msgstr ""
+
+#: includes/class-awp-menu.php:192
+msgid "VERSION "
+msgstr ""
+
+#: includes/class-awp-menu.php:196 includes/class-wawp-chat-widget.php:928
+msgid "Support"
+msgstr ""
+
+#: includes/class-awp-menu.php:200
+msgid "Refer & Earn"
+msgstr ""
+
+#: includes/class-awp-menu.php:231
+#, php-format
+msgid ""
+"🚀Wawp%2$s is ready! (You’re on %1$s) – update now to enjoy the latest "
+"features and fixes✨"
+msgstr ""
+
+#: includes/class-awp-menu.php:240
+msgid "🔄 Update now"
+msgstr ""
+
+#: includes/class-awp-menu.php:272
+msgid "Notifications module not initialised."
+msgstr ""
+
+#: includes/class-awp-menu.php:306 includes/class-wawp-chat-widget.php:989
+msgid "Wawp logo"
+msgstr ""
+
+#: includes/class-awp-menu.php:310
+msgid "Get Started"
+msgstr ""
+
+#: includes/class-awp-menu.php:314 includes/class-awp-menu.php:608
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-awp-menu.php:320 includes/class-awp-menu.php:620
+msgid "Wawp Community"
+msgstr ""
+
+#: includes/class-awp-menu.php:329 includes/class-awp-menu.php:470
+msgid "GENERAL"
+msgstr ""
+
+#: includes/class-awp-menu.php:330 includes/class-awp-menu.php:474
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-awp-menu.php:331 includes/class-awp-menu.php:481
+#: includes/class-instances.php:121
+msgid "Sender Settings"
+msgstr ""
+
+#: includes/class-awp-menu.php:333 includes/class-awp-menu.php:527
+#: includes/class-wawp-chat-widget.php:340
+#: includes/class-wawp-dashboard.php:211
+msgid "WhatsApp Chat Button"
+msgstr ""
+
+#: includes/class-awp-menu.php:334 includes/class-awp-menu.php:548
+msgid "Forms & OTP Verification"
+msgstr ""
+
+#: includes/class-awp-menu.php:335
+msgid "Messages History"
+msgstr ""
+
+#: includes/class-awp-menu.php:338
+msgid "Login to Unlock All Wawp Features for FREE"
+msgstr ""
+
+#: includes/class-awp-menu.php:347 includes/class-awp-menu.php:354
+msgid "Campaign module not initialised."
+msgstr ""
+
+#: includes/class-awp-menu.php:365
+msgid "Email-log component not found."
+msgstr ""
+
+#: includes/class-awp-menu.php:375 includes/class-awp-menu.php:567
+msgid "Email History"
+msgstr ""
+
+#: includes/class-awp-menu.php:376
+msgid "Track all email logs. Also see read status and errors."
+msgstr ""
+
+#: includes/class-awp-menu.php:401
+msgid "issue"
+msgid_plural "issues"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-awp-menu.php:417
+msgid "Get Wawp Pro"
+msgstr ""
+
+#: includes/class-awp-menu.php:419
+msgid "Free"
+msgstr ""
+
+#: includes/class-awp-menu.php:426
+msgid "Pro Lifetime"
+msgstr ""
+
+#: includes/class-awp-menu.php:434
+msgid "Pro"
+msgstr ""
+
+#: includes/class-awp-menu.php:444
+#, php-format
+msgid "%d days left"
+msgstr ""
+
+#: includes/class-awp-menu.php:447
+msgid "Expiring soon"
+msgstr ""
+
+#: includes/class-awp-menu.php:450
+msgid "Expire today"
+msgstr ""
+
+#: includes/class-awp-menu.php:467
+msgid "Setup Wizard"
+msgstr ""
+
+#: includes/class-awp-menu.php:487 includes/class-wawp-connector.php:200
+#: includes/class-wawp-connector.php:277 includes/class-wawp-connector.php:299
+msgid "Subscription"
+msgstr ""
+
+#: includes/class-awp-menu.php:500
+msgid "System Info"
+msgstr ""
+
+#: includes/class-awp-menu.php:509
+msgid "FEATURES"
+msgstr ""
+
+#: includes/class-awp-menu.php:539
+msgid "Notifications Builder"
+msgstr ""
+
+#: includes/class-awp-menu.php:555
+msgid "MESSAGES LOG"
+msgstr ""
+
+#: includes/class-awp-menu.php:560
+msgid "Whatsapp History"
+msgstr ""
+
+#: includes/class-awp-menu.php:576 includes/class-awp-menu.php:592
+msgid "CAMPAIGN"
+msgstr ""
+
+#: includes/class-awp-menu.php:581 includes/class-awp-menu.php:595
+#: includes/class-wawp-dashboard.php:377
+msgid "Bulk Campaigns"
+msgstr ""
+
+#: includes/class-awp-menu.php:588 includes/class-wawp-campaigns-admin.php:407
+msgid "Create Campaign"
+msgstr ""
+
+#: includes/class-awp-menu.php:605
+msgid "RESOURCES"
+msgstr ""
+
+#: includes/class-awp-menu.php:614
+msgid "Placeholders List"
+msgstr ""
+
+#: includes/class-awp-menu.php:633
+msgid "Dashboard is not initialized."
+msgstr ""
+
+#: includes/class-awp-menu.php:644
+msgid "Instances are not initialized."
+msgstr ""
+
+#: includes/class-awp-menu.php:655
+msgid "OTP integration is disabled."
+msgstr ""
+
+#: includes/class-awp-menu.php:670
+msgid "Log Manager is not initialized."
+msgstr ""
+
+#: includes/class-awp-menu.php:681
+msgid "Country Code Manager is not initialized."
+msgstr ""
+
+#: includes/class-awp-menu.php:691
+msgid "Wawp connector is not initialized."
+msgstr ""
+
+#: includes/class-awp-menu.php:704
+msgid "System Info is not initialized."
+msgstr ""
+
+#: includes/class-awp-others.php:59
+msgid "My Phone Details"
+msgstr ""
+
+#: includes/class-awp-others.php:63
+msgid "Login Phone Number"
+msgstr ""
+
+#: includes/class-awp-others.php:101 includes/class-awp-others.php:594
+msgid "Invalid phone number format. Use +1234567890"
+msgstr ""
+
+#: includes/class-awp-others.php:113 includes/class-awp-others.php:609
+msgid "That phone number is already used by another account."
+msgstr ""
+
+#: includes/class-awp-others.php:131
+msgid "Mark as Verified"
+msgstr ""
+
+#: includes/class-awp-others.php:132
+msgid "Mark as Not Verified"
+msgstr ""
+
+#: includes/class-awp-others.php:172
+msgid "Send Message"
+msgstr ""
+
+#: includes/class-awp-others.php:189
+msgid "Send"
+msgstr ""
+
+#: includes/class-awp-others.php:200 includes/class-instances.php:982
+#: includes/class-instances.php:1069 includes/class-instances.php:1094
+#: includes/class-instances.php:1173 includes/class-instances.php:1202
+#: includes/class-instances.php:1669
+msgid "Unauthorized user."
+msgstr ""
+
+#: includes/class-awp-others.php:208
+msgid "Missing fields."
+msgstr ""
+
+#: includes/class-awp-others.php:216
+msgid "No phone found for user."
+msgstr ""
+
+#: includes/class-awp-others.php:228
+msgid "No online instance found or invalid instance."
+msgstr ""
+
+#: includes/class-awp-others.php:251
+msgid "API Error: "
+msgstr ""
+
+#: includes/class-awp-others.php:309 includes/class-awp-otp-login.php:179
+#: includes/class-instances.php:1973 includes/class-wawp-setup-wizard.php:501
+msgid "No online instances found."
+msgstr ""
+
+#: includes/class-awp-others.php:326
+msgid "Search Number..."
+msgstr ""
+
+#: includes/class-awp-others.php:327
+msgid "Search Number"
+msgstr ""
+
+#: includes/class-awp-others.php:364 includes/class-awp-others.php:371
+msgid "Phone Number"
+msgstr ""
+
+#: includes/class-awp-others.php:444
+#: includes/helpers/class-awp-custom-pages-settings.php:39
+msgid "Fast Login"
+msgstr ""
+
+#: includes/class-awp-others.php:474
+msgid "You don’t have an account?"
+msgstr ""
+
+#: includes/class-awp-others.php:475 includes/class-wawp-otp.php:74
+msgid "Signup"
+msgstr ""
+
+#: includes/class-awp-others.php:481
+msgid "Already have an account?"
+msgstr ""
+
+#: includes/class-awp-others.php:482 includes/class-awp-otp-login.php:619
+#: includes/class-wawp-setup-wizard.php:150
+#: includes/helpers/class-awp-custom-pages-settings.php:37
+msgid "Login"
+msgstr ""
+
+#: includes/class-awp-others.php:506 includes/class-awp-others.php:545
+msgid "WhatsApp Verified"
+msgstr ""
+
+#: includes/class-awp-others.php:518 includes/class-awp-others.php:554
+msgid "Verified By Wawp"
+msgstr ""
+
+#: includes/class-awp-others.php:538
+msgid "Wawp User Information"
+msgstr ""
+
+#: includes/class-awp-others.php:541 includes/class-awp-signup.php:241
+#: includes/class-awp-signup.php:647 includes/class-wawp-flow-builder.php:1093
+msgid "Phone"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:112 includes/class-awp-otp-login.php:116
+#: includes/class-awp-otp-login.php:121 includes/class-awp-otp-login.php:472
+#: includes/class-awp-otp-login.php:476 includes/class-awp-otp-login.php:481
+#: includes/class-instances.php:1889 includes/class-wawp-otp.php:66
+#: includes/class-wawp-setup-wizard.php:465
+msgid "OTP Login"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:112 includes/class-awp-otp-login.php:472
+msgid "Site is blocked."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:116
+msgid "Need login."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:121 includes/class-awp-otp-login.php:481
+msgid "Not an active site."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:172
+msgid "Select the WhatsApp account to send OTP login codes to users."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:182
+msgid "-- Select Instance --"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:199
+msgid "Primary Login Method"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:206
+msgid "WhatsApp OTP"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:207 includes/class-awp-otp-login.php:527
+msgid "Email OTP"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:208 includes/class-awp-otp-login.php:529
+msgid "Email and Password"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:232
+msgid "Manage Login Methods"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:233
+msgid "Enable and customize your preferred login option."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:241
+msgid "Email & Password Login"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:248
+msgid "WhatsApp OTP Login"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:262
+msgid "Email OTP Login"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:286
+msgid "Redirection Rules"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:287
+msgid "Set up redirection URLs based on user roles."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:300 views/wawp-enqueue-scripts.php:128
+msgid "All Roles"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:306 views/wawp-enqueue-scripts.php:127
+msgid "Enter redirect URL"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:315
+msgid "Add Redirection Rule"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:323 includes/class-awp-signup.php:386
+msgid "Form Style"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:324
+msgid "Customize the appearance of your login form."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:336 includes/class-awp-signup.php:399
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:343 includes/class-awp-signup.php:405
+msgid "Page Title"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:345
+msgid "Enter a title to display above the login form (optional)"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:349
+msgid "Page Description"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:360 includes/class-awp-signup.php:418
+msgid "Enter a description to display below the title (optional)"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:369 includes/class-awp-signup.php:426
+msgid "Button Color"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:370
+msgid "Change button colors for the OTP login page."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:378
+#: includes/class-awp-phone-verification-bar.php:69
+msgid "Send OTP"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:384
+msgid "Verify OTP"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:390
+#: includes/class-awp-phone-verification-bar.php:86
+#: includes/class-awp-phone-verification-bar.php:89
+#: includes/class-awp-phone-verification-bar.php:131
+msgid "Resend OTP"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:396
+msgid "Regular Login"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:408
+msgid "Custom Shortcode"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:409
+msgid "Add a shortcode to display extra content below the login options."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:445
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:457 includes/class-awp-signup.php:64
+msgid "Check your WhatsApp"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:458 includes/class-awp-signup.php:63
+msgid "Check your Email"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:459
+msgid "We’ve sent you a 6-digit code to"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:460 includes/class-awp-otp-login.php:554
+#: includes/class-awp-otp-login.php:588 includes/class-awp-signup.php:66
+#: includes/class-awp-signup.php:775
+msgid "Resend Code"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:466 includes/class-awp-signup.php:590
+msgid "You are already logged in."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:476
+msgid "Need login to Wawp."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:491
+msgid "Logo"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:525 includes/class-awp-signup.php:322
+#: includes/class-wawp-chat-widget.php:353
+#: includes/class-wawp-flow-builder.php:529 views/wawp-enqueue-scripts.php:83
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:539 includes/class-instances.php:240
+#: includes/class-wawp-chat-widget.php:598
+msgid "WhatsApp Number"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:540
+msgid "Enter your WhatsApp number"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:543 includes/class-awp-otp-login.php:575
+#: includes/class-awp-signup.php:770
+msgid "Enter OTP code.."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:548 includes/class-awp-otp-login.php:580
+msgid "Send Code"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:551 includes/class-awp-otp-login.php:584
+#: includes/class-awp-phone-verification-bar.php:73
+#: includes/class-awp-signup.php:774
+msgid "Confirm"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:558 includes/class-awp-signup.php:69
+msgid "Wrong WhatsApp?"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:559 includes/class-awp-signup.php:70
+msgid "Please re-enter your number"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:571 includes/class-awp-signup.php:240
+#: includes/class-awp-signup.php:327 includes/class-awp-signup.php:632
+#: includes/class-wawp-flow-builder.php:1094
+msgid "Email"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:572
+msgid "Enter your email"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:592 includes/class-awp-signup.php:67
+msgid "Wrong e-mail?"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:593 includes/class-awp-signup.php:68
+msgid "Please re-enter your email"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:605
+msgid "Email or Username"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:606
+msgid "Enter your email or username"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:609 includes/class-awp-signup.php:242
+#: includes/class-awp-signup.php:662 includes/class-instances.php:601
+msgid "Password"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:611
+msgid "Enter your password"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:629
+msgid "OR"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:647
+#: includes/class-wawp-flow-builder.php:2707
+msgid "No WhatsApp instance selected."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:656 includes/class-awp-signup.php:961
+msgid "Selected WhatsApp instance is offline or invalid."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:670 includes/class-awp-otp-login.php:817
+msgid "Invalid login method."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:677
+msgid "WhatsApp number is required."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:682 includes/class-awp-otp-login.php:845
+msgid "No user found with this WhatsApp number."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:726 includes/class-awp-signup.php:990
+msgid "Failed to send OTP: "
+msgstr ""
+
+#: includes/class-awp-otp-login.php:737 includes/class-awp-otp-login.php:785
+msgid "OTP sent successfully."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:758
+msgid "Email is required."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:761
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:765
+msgid "No user found with this email address."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:781 includes/class-awp-signup.php:1235
+msgid "Your OTP Code"
+msgstr ""
+
+#: includes/class-awp-otp-login.php:792
+msgid "Email/Username and password are required."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:802 includes/class-awp-otp-login.php:841
+#: includes/class-awp-otp-login.php:865
+msgid "Logged in successfully."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:826
+msgid "WhatsApp number and OTP are required."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:848 includes/class-awp-otp-login.php:869
+msgid "Invalid or expired OTP."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:855
+msgid "Email and OTP are required."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:867
+msgid "No user found with this email."
+msgstr ""
+
+#: includes/class-awp-otp-login.php:940
+msgid "OTP Login Request"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:50
+msgid "Add your number to access all features and login via WhatsApp OTP."
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:54
+msgid "Confirm your number"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:57
+msgid "to get full access and login via WhatsApp OTP."
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:63
+#: includes/class-instances.php:165
+msgid "Save"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:66
+msgid "123456"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:140
+msgid "Thank you, your number is verified now"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:155
+#: includes/class-awp-phone-verification-bar.php:194
+msgid "Login required"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:159
+msgid "Invalid phone format"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:169
+msgid "Phone already used."
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:198
+msgid "No phone found"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:205
+msgid "No online instance"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:226
+msgid "Verify Bar"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:247
+msgid "Invalid OTP"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:252
+msgid "OTP expired"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:255
+msgid "Incorrect OTP"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:268
+msgid "OTP verified by user"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:277
+msgid "OTP verification request"
+msgstr ""
+
+#: includes/class-awp-phone-verification-bar.php:279
+msgid "Verified Request"
+msgstr ""
+
+#: includes/class-awp-signup.php:62 includes/class-awp-signup.php:826
+#: includes/class-awp-signup.php:833 includes/class-awp-signup.php:835
+#: views/wawp-enqueue-scripts.php:119
+msgid "This field is required."
+msgstr ""
+
+#: includes/class-awp-signup.php:65
+#, php-format
+msgid "We’ve sent you a 6-digit code to <br><b>%s</b>"
+msgstr ""
+
+#: includes/class-awp-signup.php:71
+msgid "An unexpected error occurred. Please try again."
+msgstr ""
+
+#: includes/class-awp-signup.php:72
+msgid "An unexpected error occurred while resending OTP. Please try again."
+msgstr ""
+
+#: includes/class-awp-signup.php:73 includes/class-awp-signup.php:839
+#: includes/class-awp-signup.php:848 includes/class-instances.php:421
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-awp-signup.php:74 includes/class-awp-signup.php:842
+msgid "Please enter a valid number."
+msgstr ""
+
+#: includes/class-awp-signup.php:144
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-awp-signup.php:151 includes/class-awp-signup.php:158
+#: includes/class-awp-signup.php:166 includes/class-awp-signup.php:566
+#: includes/class-awp-signup.php:573 includes/class-awp-signup.php:581
+msgid "OTP Signup"
+msgstr ""
+
+#: includes/class-awp-signup.php:184
+msgid "Select the WhatsApp account used to send OTP codes for signup."
+msgstr ""
+
+#: includes/class-awp-signup.php:192
+msgid "No online instances available."
+msgstr ""
+
+#: includes/class-awp-signup.php:212
+msgid "Enable Signup Verification"
+msgstr ""
+
+#: includes/class-awp-signup.php:213
+msgid "Enable the OTP verification for new users signup."
+msgstr ""
+
+#: includes/class-awp-signup.php:224
+msgid "Standard Signup Form Fields"
+msgstr ""
+
+#: includes/class-awp-signup.php:225
+msgid "Customize the default fields for your signup form."
+msgstr ""
+
+#: includes/class-awp-signup.php:230
+msgid "Add New Custom Field"
+msgstr ""
+
+#: includes/class-awp-signup.php:238 includes/class-awp-signup.php:604
+#: includes/class-wawp-flow-builder.php:1074
+#: includes/class-wawp-flow-builder.php:1091
+msgid "First Name"
+msgstr ""
+
+#: includes/class-awp-signup.php:239 includes/class-awp-signup.php:618
+#: includes/class-wawp-flow-builder.php:1075
+#: includes/class-wawp-flow-builder.php:1092
+msgid "Last Name"
+msgstr ""
+
+#: includes/class-awp-signup.php:257
+msgid "Enable"
+msgstr ""
+
+#: includes/class-awp-signup.php:257
+msgid "Required"
+msgstr ""
+
+#: includes/class-awp-signup.php:257 includes/class-instances.php:315
+#: includes/class-wawp-campaigns-admin.php:89
+msgid "Actions"
+msgstr ""
+
+#: includes/class-awp-signup.php:279 views/wawp-enqueue-scripts.php:130
+msgid "Primary Key Can't edit or deleted"
+msgstr ""
+
+#: includes/class-awp-signup.php:282
+#: includes/class-wawp-campaigns-admin.php:239
+#: includes/class-wawp-campaigns-admin.php:258
+#: includes/class-wawp-chat-widget.php:410
+#: includes/helpers/class-awp-custom-pages-settings.php:65
+#: views/wawp-enqueue-scripts.php:125
+msgid "Edit"
+msgstr ""
+
+#: includes/class-awp-signup.php:283
+#: includes/class-wawp-campaigns-admin.php:265
+#: includes/class-wawp-chat-widget.php:413 views/wawp-enqueue-scripts.php:126
+msgid "Delete"
+msgstr ""
+
+#: includes/class-awp-signup.php:313
+msgid "OTP Verification Method"
+msgstr ""
+
+#: includes/class-awp-signup.php:314
+msgid "Select the signup verification method."
+msgstr ""
+
+#: includes/class-awp-signup.php:339
+msgid "Email Template"
+msgstr ""
+
+#: includes/class-awp-signup.php:352
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/class-awp-signup.php:353
+msgid "Set up additional options for signup."
+msgstr ""
+
+#: includes/class-awp-signup.php:358
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/class-awp-signup.php:361
+msgid "Set the URL where users will be redirected after signing up. (optional)"
+msgstr ""
+
+#: includes/class-awp-signup.php:365
+msgid "Enable Strong Passwords"
+msgstr ""
+
+#: includes/class-awp-signup.php:371
+msgid "Enable Password Reset Link"
+msgstr ""
+
+#: includes/class-awp-signup.php:377
+msgid "Enable Auto Login After Signup"
+msgstr ""
+
+#: includes/class-awp-signup.php:387
+msgid "Customize the appearance of your signup form."
+msgstr ""
+
+#: includes/class-awp-signup.php:407
+msgid "Enter a title to display above the signup form (optional)"
+msgstr ""
+
+#: includes/class-awp-signup.php:411
+msgid "Description"
+msgstr ""
+
+#: includes/class-awp-signup.php:427
+msgid "Customize the colors of buttons on the signup form."
+msgstr ""
+
+#: includes/class-awp-signup.php:434
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-awp-signup.php:439
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/class-awp-signup.php:444
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-awp-signup.php:449
+msgid "Text Hover Color"
+msgstr ""
+
+#: includes/class-awp-signup.php:594
+msgid ""
+"Please enable Phone or Email field and choose sender then click \"Save "
+"changes\" from Wawp > OTP Verification > Signup. to display this form."
+msgstr ""
+
+#: includes/class-awp-signup.php:639
+msgid "Enter your email address"
+msgstr ""
+
+#: includes/class-awp-signup.php:654
+msgid "Enter your phone number"
+msgstr ""
+
+#: includes/class-awp-signup.php:678
+msgid "Your password must contain:"
+msgstr ""
+
+#: includes/class-awp-signup.php:679
+msgid "Upper case letter (A-Z)"
+msgstr ""
+
+#: includes/class-awp-signup.php:680
+msgid "Lower case letter (a-z)"
+msgstr ""
+
+#: includes/class-awp-signup.php:681
+msgid "Numbers (0-9)"
+msgstr ""
+
+#: includes/class-awp-signup.php:682
+msgid "At least 8 characters"
+msgstr ""
+
+#: includes/class-awp-signup.php:683
+msgid "Special characters (e.g. !@#$%^&*)"
+msgstr ""
+
+#: includes/class-awp-signup.php:758
+msgid "Create New Account"
+msgstr ""
+
+#: includes/class-awp-signup.php:790 includes/class-awp-signup.php:1053
+#: includes/class-awp-signup.php:1178 includes/class-awp-signup.php:1183
+msgid "Invalid request. Please try again."
+msgstr ""
+
+#: includes/class-awp-signup.php:850
+msgid "Email already in use."
+msgstr ""
+
+#: includes/class-awp-signup.php:856
+msgid "Password must be at least 8 characters long."
+msgstr ""
+
+#: includes/class-awp-signup.php:860
+msgid "Password must include at least one uppercase letter."
+msgstr ""
+
+#: includes/class-awp-signup.php:863
+msgid "Password must include at least one lowercase letter."
+msgstr ""
+
+#: includes/class-awp-signup.php:866
+msgid "Password must include at least one number."
+msgstr ""
+
+#: includes/class-awp-signup.php:869
+msgid "Password must include at least one special character."
+msgstr ""
+
+#: includes/class-awp-signup.php:880
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/class-awp-signup.php:883
+msgid "Phone number already in use."
+msgstr ""
+
+#: includes/class-awp-signup.php:889
+msgid "Phone number is required for OTP confirmation."
+msgstr ""
+
+#: includes/class-awp-signup.php:892
+msgid "Email is required for OTP confirmation."
+msgstr ""
+
+#: includes/class-awp-signup.php:948
+msgid "Failed to send OTP email. Please try again later."
+msgstr ""
+
+#: includes/class-awp-signup.php:956
+msgid "No WhatsApp instance selected for OTP sending."
+msgstr ""
+
+#: includes/class-awp-signup.php:986
+msgid ""
+"Failed to send OTP via WhatsApp. Please try again. If the problem persists, "
+"contact support."
+msgstr ""
+
+#: includes/class-awp-signup.php:1006
+msgid ""
+"OTP sent successfully! Please enter the code below to complete your signup."
+msgstr ""
+
+#: includes/class-awp-signup.php:1047 includes/class-awp-signup.php:1167
+msgid "Signup successful! Redirecting..."
+msgstr ""
+
+#: includes/class-awp-signup.php:1059
+msgid "OTP and Transient Key are required."
+msgstr ""
+
+#: includes/class-awp-signup.php:1063 includes/class-awp-signup.php:1187
+msgid "OTP has expired or is invalid. Please sign up again."
+msgstr ""
+
+#: includes/class-awp-signup.php:1068
+msgid "Maximum OTP attempts exceeded. Please sign up again."
+msgstr ""
+
+#: includes/class-awp-signup.php:1079 includes/class-awp-signup.php:1192
+msgid "Selected instance is not available. Please contact the administrator."
+msgstr ""
+
+#: includes/class-awp-signup.php:1128
+msgid "Failed to generate password reset key."
+msgstr ""
+
+#: includes/class-awp-signup.php:1134
+msgid "Set Your Password"
+msgstr ""
+
+#: includes/class-awp-signup.php:1135 includes/class-awp-signup.php:1145
+msgid "Please set your password using the following link:"
+msgstr ""
+
+#: includes/class-awp-signup.php:1138
+msgid "Password reset link sent successfully via Email."
+msgstr ""
+
+#: includes/class-awp-signup.php:1141
+msgid "Failed to send password reset link via Email."
+msgstr ""
+
+#: includes/class-awp-signup.php:1149
+msgid "Password Reset Link"
+msgstr ""
+
+#: includes/class-awp-signup.php:1150
+msgid "Password reset link sent successfully via WhatsApp."
+msgstr ""
+
+#: includes/class-awp-signup.php:1153
+msgid "Failed to send password reset link via WhatsApp."
+msgstr ""
+
+#: includes/class-awp-signup.php:1196
+msgid "Required contact info is missing for OTP resending."
+msgstr ""
+
+#: includes/class-awp-signup.php:1205
+msgid "Failed to resend OTP email. Please try again later."
+msgstr ""
+
+#: includes/class-awp-signup.php:1212
+msgid "Failed to resend OTP. Please try again later."
+msgstr ""
+
+#: includes/class-awp-signup.php:1225
+msgid ""
+"OTP resent successfully! Please enter the new code below to complete your "
+"signup."
+msgstr ""
+
+#: includes/class-awp-signup.php:1331
+msgid "Signup OTP Message"
+msgstr ""
+
+#: includes/class-awp-signup.php:1340
+msgid "Failed to log WhatsApp message - "
+msgstr ""
+
+#: includes/class-awp-signup.php:1352 includes/class-awp-system-info.php:1395
+#: includes/class-awp-system-info.php:1396
+#: includes/class-awp-system-info.php:1397
+#: includes/class-awp-system-info.php:1399
+#: includes/class-wawp-campaigns-admin.php:163
+#: includes/class-wawp-campaigns-admin.php:211
+#: includes/class-wawp-email-log-list-table.php:137
+msgid "N/A"
+msgstr ""
+
+#: includes/class-awp-signup.php:1364
+msgid "Additional Profile Information"
+msgstr ""
+
+#: includes/class-awp-signup.php:1453
+msgid "Text Input"
+msgstr ""
+
+#: includes/class-awp-signup.php:1454
+msgid "Text Area"
+msgstr ""
+
+#: includes/class-awp-signup.php:1455
+msgid "Email Input"
+msgstr ""
+
+#: includes/class-awp-signup.php:1456
+msgid "Number Input"
+msgstr ""
+
+#: includes/class-awp-signup.php:1457
+msgid "Checkbox (Multi-select)"
+msgstr ""
+
+#: includes/class-awp-signup.php:1458
+msgid "Radio Button (Single-select)"
+msgstr ""
+
+#: includes/class-awp-signup.php:1463 includes/class-instances.php:213
+#: includes/class-instances.php:249
+msgid "Close"
+msgstr ""
+
+#: includes/class-awp-signup.php:1466
+msgid "Manage Custom Field"
+msgstr ""
+
+#: includes/class-awp-signup.php:1474
+msgid "Meta Key (Unique ID)"
+msgstr ""
+
+#: includes/class-awp-signup.php:1477
+msgid ""
+"This will be the unique meta key for the user profile. (e.g., "
+"`my_custom_field`). Use lowercase, no spaces, no special characters except "
+"underscore."
+msgstr ""
+
+#: includes/class-awp-signup.php:1484
+msgid "Field Label"
+msgstr ""
+
+#: includes/class-awp-signup.php:1487
+msgid ""
+"This will be the Name for the user frontend. (e.g., `Your Name`). Allowed "
+"every Thing."
+msgstr ""
+
+#: includes/class-awp-signup.php:1495
+msgid "Field Type"
+msgstr ""
+
+#: includes/class-awp-signup.php:1525
+msgid "Options (one per line)"
+msgstr ""
+
+#: includes/class-awp-signup.php:1528
+msgid ""
+"Enter each option on a new line. For example: `Option 1 | Value1`, `Option 2 "
+"| Value2`. If no value is provided, the option text will be used as the "
+"value."
+msgstr ""
+
+#: includes/class-awp-signup.php:1537
+msgid "Enable Field on Signup Form"
+msgstr ""
+
+#: includes/class-awp-signup.php:1546
+msgid "Required Field"
+msgstr ""
+
+#: includes/class-awp-signup.php:1552
+msgid "Save Field"
+msgstr ""
+
+#: includes/class-awp-system-info.php:161
+msgid "Database repair process completed."
+msgstr ""
+
+#: includes/class-awp-system-info.php:163
+msgid "Database repair failed: AWP_Database_Manager class not found."
+msgstr ""
+
+#: includes/class-awp-system-info.php:166
+msgid "Database repair failed: class-database-manager.php not found."
+msgstr ""
+
+#: includes/class-awp-system-info.php:186
+#, php-format
+msgid "Scheduled missing cron hook: %s."
+msgstr ""
+
+#: includes/class-awp-system-info.php:191
+msgid "Cron repair skipped: DISABLE_WP_CRON is set to true in wp-config.php."
+msgstr ""
+
+#: includes/class-awp-system-info.php:202
+msgid "Successfully auto-assigned missing sender settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:204
+msgid ""
+"No missing sender settings to assign or no online instances were available."
+msgstr ""
+
+#: includes/class-awp-system-info.php:208
+msgid "System info cache has been refreshed."
+msgstr ""
+
+#: includes/class-awp-system-info.php:218
+#: includes/class-awp-system-info.php:238
+#: includes/class-awp-system-info.php:267
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/class-awp-system-info.php:335
+msgid "HTTPS Status"
+msgstr ""
+
+#: includes/class-awp-system-info.php:336
+#: includes/class-awp-system-info.php:343
+#: includes/class-awp-system-info.php:350
+#: includes/class-awp-system-info.php:364
+#: includes/class-awp-system-info.php:371
+#: includes/class-awp-system-info.php:433
+#: includes/class-awp-system-info.php:481
+#: includes/class-awp-system-info.php:510
+#: includes/class-awp-system-info.php:531
+#: includes/class-awp-system-info.php:539
+#: includes/class-awp-system-info.php:582
+#: includes/class-awp-system-info.php:597
+#: includes/class-awp-system-info.php:704
+#: includes/class-awp-system-info.php:899
+#: includes/class-awp-system-info.php:904
+#: includes/class-awp-system-info.php:909
+#: includes/class-awp-system-info.php:973
+#: includes/class-awp-system-info.php:1046
+msgid "OK"
+msgstr ""
+
+#: includes/class-awp-system-info.php:336
+#: includes/class-awp-system-info.php:473
+#: includes/class-awp-system-info.php:494
+#: includes/class-awp-system-info.php:523
+#: includes/class-awp-system-info.php:542
+#: includes/class-awp-system-info.php:560
+#: includes/class-awp-system-info.php:693
+#: includes/class-awp-system-info.php:710
+#: includes/class-awp-system-info.php:904
+#: includes/class-awp-system-info.php:909
+#: includes/class-awp-system-info.php:1046
+msgid "Warning"
+msgstr ""
+
+#: includes/class-awp-system-info.php:337
+msgid "Site is using a secure (HTTPS) connection."
+msgstr ""
+
+#: includes/class-awp-system-info.php:337
+msgid "Site is not using HTTPS. A secure connection is highly recommended."
+msgstr ""
+
+#: includes/class-awp-system-info.php:342
+msgid "WordPress Debug Mode"
+msgstr ""
+
+#: includes/class-awp-system-info.php:344
+msgid ""
+"<code>WP_DEBUG</code> is enabled. This should be disabled on a live "
+"production site."
+msgstr ""
+
+#: includes/class-awp-system-info.php:344
+msgid "Debug mode is disabled."
+msgstr ""
+
+#: includes/class-awp-system-info.php:349
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-awp-system-info.php:351
+msgid ""
+"<code>WP_DEBUG_LOG</code> is enabled. Error logging to a file is active."
+msgstr ""
+
+#: includes/class-awp-system-info.php:351
+msgid "Debug logging is disabled."
+msgstr ""
+
+#: includes/class-awp-system-info.php:357
+#: includes/class-awp-system-info.php:363
+#: includes/class-awp-system-info.php:370
+#: includes/class-wawp-setup-wizard.php:294
+msgid "WP-Cron Constant"
+msgstr ""
+
+#: includes/class-awp-system-info.php:359
+msgid ""
+"The constant <code>DISABLE_WP_CRON</code> is set to <code>true</code>. This "
+"prevents all WordPress scheduled tasks from running automatically. **This "
+"line must be removed from wp-config.php.**"
+msgstr ""
+
+#: includes/class-awp-system-info.php:365
+msgid ""
+"The constant <code>DISABLE_WP_CRON</code> is explicitly set to <code>false</"
+"code>. This has no negative effect."
+msgstr ""
+
+#: includes/class-awp-system-info.php:372
+msgid "The constant <code>DISABLE_WP_CRON</code> is not defined."
+msgstr ""
+
+#: includes/class-awp-system-info.php:396
+msgid "Generic Proxy/CDN"
+msgstr ""
+
+#: includes/class-awp-system-info.php:398
+msgid "—"
+msgstr ""
+
+#: includes/class-awp-system-info.php:416
+msgid "single"
+msgstr ""
+
+#: includes/class-awp-system-info.php:435
+msgid ""
+"No **online WhatsApp instances** found. Please connect at least one number "
+"in Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:436
+msgid "At least one online WhatsApp instance is connected."
+msgstr ""
+
+#: includes/class-awp-system-info.php:439
+#: includes/class-wawp-setup-wizard.php:295
+msgid "Online WhatsApp Instances"
+msgstr ""
+
+#: includes/class-awp-system-info.php:468
+#: includes/class-awp-system-info.php:489
+#: includes/class-awp-system-info.php:519
+#: includes/class-awp-system-info.php:556
+msgid "Feature is disabled."
+msgstr ""
+
+#: includes/class-awp-system-info.php:474
+msgid ""
+"OTP Login is enabled but **no instance is selected** in Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:478
+#, php-format
+msgid ""
+"OTP Login instance **%s is not online or does not exist**. Please check "
+"Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:482
+msgid "OTP Login instance is configured and online."
+msgstr ""
+
+#: includes/class-awp-system-info.php:485
+msgid "OTP Login Sender"
+msgstr ""
+
+#: includes/class-awp-system-info.php:495
+msgid ""
+"WhatsApp OTP Signup is enabled but **no instance is selected** in Sender "
+"Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:507
+#, php-format
+msgid ""
+"WhatsApp OTP Signup instance (ID#%s) is **not online or does not exist**. "
+"Please check Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:511
+msgid "WhatsApp OTP Signup instance is configured and online."
+msgstr ""
+
+#: includes/class-awp-system-info.php:515
+msgid "WhatsApp OTP Signup Sender"
+msgstr ""
+
+#: includes/class-awp-system-info.php:524
+msgid ""
+"Checkout OTP Verification is enabled but **no instance is selected** in "
+"Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:528
+#, php-format
+msgid ""
+"Checkout OTP Verification instance **%s is not online or does not exist**. "
+"Please check Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:532
+msgid "Checkout OTP Verification instance is configured and online."
+msgstr ""
+
+#: includes/class-awp-system-info.php:535
+msgid "Checkout OTP Verification Sender"
+msgstr ""
+
+#: includes/class-awp-system-info.php:540
+msgid "Resend Failed Messages is enabled but no instance is selected."
+msgstr ""
+
+#: includes/class-awp-system-info.php:543
+msgid ""
+"Resend Failed Messages is enabled but **no instance is selected** in Sender "
+"Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:547
+#, php-format
+msgid ""
+"Resend Failed Messages instance **%s is not online or does not exist**. "
+"Please check Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:550
+msgid "Resend Failed Messages instance is configured and online."
+msgstr ""
+
+#: includes/class-awp-system-info.php:552
+msgid "Resend Failed Messages Sender"
+msgstr ""
+
+#: includes/class-awp-system-info.php:561
+msgid ""
+"WooCommerce Notifications are enabled but **no instances are selected** in "
+"Sender Settings. Messages won’t be sent."
+msgstr ""
+
+#: includes/class-awp-system-info.php:579
+#, php-format
+msgid ""
+"Some WooCommerce Notification instances (IDs: %s) are **not online or do not "
+"exist**. Please check Sender Settings."
+msgstr ""
+
+#: includes/class-awp-system-info.php:583
+msgid "WooCommerce Notification instances are configured and online."
+msgstr ""
+
+#: includes/class-awp-system-info.php:587
+msgid "WooCommerce Notifications Sender"
+msgstr ""
+
+#: includes/class-awp-system-info.php:598
+msgid "Custom SMTP is **enabled** for sending emails."
+msgstr ""
+
+#: includes/class-awp-system-info.php:602
+msgid "Empty Auth"
+msgstr ""
+
+#: includes/class-awp-system-info.php:603
+msgid ""
+" However, SMTP is enabled but **host, username, or password** might be "
+"missing. Run a connection test."
+msgstr ""
+
+#: includes/class-awp-system-info.php:605
+#, php-format
+msgid " Host: %1$s, Port: %2$s, Encryption: %3$s."
+msgstr ""
+
+#: includes/class-awp-system-info.php:610
+msgid ""
+" However, SMTP is enabled but **host** might be missing. Run a connection "
+"test."
+msgstr ""
+
+#: includes/class-awp-system-info.php:612
+#, php-format
+msgid " Host: %1$s, Port: %2$s, Encryption: %3$s. (Authentication disabled)"
+msgstr ""
+
+#: includes/class-awp-system-info.php:617
+msgid "disabled"
+msgstr ""
+
+#: includes/class-awp-system-info.php:618
+msgid ""
+"Custom SMTP is **disabled**. The plugin relies on WordPress's default mailer "
+"(which may use PHP mail() or your host's configuration)."
+msgstr ""
+
+#: includes/class-awp-system-info.php:621
+msgid "SMTP Configuration"
+msgstr ""
+
+#: includes/class-awp-system-info.php:678
+msgid "AWP DB Checker:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:678
+msgid "Found one or more issues with the database tables."
+msgstr ""
+
+#: includes/class-awp-system-info.php:678
+msgid "Click here to view the report and repair the database."
+msgstr ""
+
+#: includes/class-awp-system-info.php:736
+msgid "Permission denied."
+msgstr ""
+
+#: includes/class-awp-system-info.php:749
+msgid "Invalid or disallowed table name."
+msgstr ""
+
+#: includes/class-awp-system-info.php:755
+#, php-format
+msgid "Table %s has been emptied."
+msgstr ""
+
+#: includes/class-awp-system-info.php:757
+#, php-format
+msgid "Failed to empty table %s."
+msgstr ""
+
+#: includes/class-awp-system-info.php:768
+#: includes/class-awp-system-info.php:772
+#: includes/class-awp-system-info.php:776
+msgid "System Status"
+msgstr ""
+
+#: includes/class-awp-system-info.php:808
+msgid "Loading system health data..."
+msgstr ""
+
+#: includes/class-awp-system-info.php:813
+msgid "Wawp System Status"
+msgstr ""
+
+#: includes/class-awp-system-info.php:814
+msgid ""
+"Review your site's configuration and Wawp feature status. You can repair "
+"issues directly from this page."
+msgstr ""
+
+#: includes/class-awp-system-info.php:819
+#: includes/class-wawp-setup-wizard.php:212
+#, php-format
+msgid "Total issues that need fixing: %d"
+msgstr ""
+
+#: includes/class-awp-system-info.php:822
+msgid ""
+"No issues found. Your system is configured correctly for all enabled "
+"features."
+msgstr ""
+
+#: includes/class-awp-system-info.php:828
+#: includes/class-wawp-setup-wizard.php:217
+msgid "Repair All Issues"
+msgstr ""
+
+#: includes/class-awp-system-info.php:832
+#: includes/class-wawp-setup-wizard.php:206
+msgid "Sync Users"
+msgstr ""
+
+#: includes/class-awp-system-info.php:839
+msgid "All issues repaired successfully."
+msgstr ""
+
+#: includes/class-awp-system-info.php:839
+msgid ""
+"Missing sender settings were auto-assigned with the first online instance."
+msgstr ""
+
+#: includes/class-awp-system-info.php:843
+msgid "Database tables repaired successfully."
+msgstr ""
+
+#: includes/class-awp-system-info.php:845
+#: includes/class-awp-system-info.php:847
+msgid "Repair failed:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:845
+msgid "Could not locate"
+msgstr ""
+
+#: includes/class-awp-system-info.php:845
+msgid "Please ensure the main Wawp plugin is installed and activated."
+msgstr ""
+
+#: includes/class-awp-system-info.php:847
+msgid "Found the file, but the"
+msgstr ""
+
+#: includes/class-awp-system-info.php:847
+msgid "class is missing. The main Wawp plugin might be corrupted."
+msgstr ""
+
+#: includes/class-awp-system-info.php:852
+msgid "Cron job scheduled successfully."
+msgstr ""
+
+#: includes/class-awp-system-info.php:852
+msgid "It will run on the next available opportunity."
+msgstr ""
+
+#: includes/class-awp-system-info.php:854
+msgid "Failed to schedule cron job."
+msgstr ""
+
+#: includes/class-awp-system-info.php:854
+msgid "It might already be scheduled or an error occurred."
+msgstr ""
+
+#: includes/class-awp-system-info.php:868
+msgid "WordPress Environment"
+msgstr ""
+
+#: includes/class-awp-system-info.php:869
+msgid "General information about your WordPress setup."
+msgstr ""
+
+#: includes/class-awp-system-info.php:872
+msgid "Setting"
+msgstr ""
+
+#: includes/class-awp-system-info.php:872
+msgid "Value"
+msgstr ""
+
+#: includes/class-awp-system-info.php:874
+msgid "Home URL:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:875
+msgid "Site URL:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:876
+msgid "WP Version:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:877
+msgid "WP Multisite:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:878
+msgid "System Language:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:878
+msgid "direction:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:879
+msgid "Your Language:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:880
+msgid "WooCommerce:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:881
+msgid "Uploads folder writable:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:882
+msgid ".htaccess File Access:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:883
+msgid "Wawp Plugin Version:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:884
+msgid "Last Update Date:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:891
+msgid "Wawp System Health Checks"
+msgstr ""
+
+#: includes/class-awp-system-info.php:892
+msgid ""
+"Detailed checks for Wawp plugin specific configurations and dependencies."
+msgstr ""
+
+#: includes/class-awp-system-info.php:895
+#: includes/class-awp-system-info.php:1042
+msgid "Check"
+msgstr ""
+
+#: includes/class-awp-system-info.php:895
+#: includes/class-awp-system-info.php:1042
+msgid "Details"
+msgstr ""
+
+#: includes/class-awp-system-info.php:898
+msgid "CDN Provider"
+msgstr ""
+
+#: includes/class-awp-system-info.php:898
+msgid "Proxy Detected"
+msgstr ""
+
+#: includes/class-awp-system-info.php:898
+msgid "No Proxy"
+msgstr ""
+
+#: includes/class-awp-system-info.php:917
+msgid "Server Environment"
+msgstr ""
+
+#: includes/class-awp-system-info.php:918
+msgid "Meet system requirements for optimal Wawp plugin performance."
+msgstr ""
+
+#: includes/class-awp-system-info.php:921
+msgid "Requirement"
+msgstr ""
+
+#: includes/class-awp-system-info.php:921
+msgid "Your System"
+msgstr ""
+
+#: includes/class-awp-system-info.php:923
+msgid "MySQL Version (5.6+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:924
+msgid "PHP Version (7.4+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:925
+msgid "PHP Post Max Size (2M+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:926
+msgid "PHP Memory Limit (1024M+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:927
+msgid "PHP Time Limit (300+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:928
+msgid "PHP Max Input Vars (2500+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:929
+msgid "Max Upload Size (2M+):"
+msgstr ""
+
+#: includes/class-awp-system-info.php:930
+msgid "ZipArchive:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:931
+msgid "WP Remote Get:"
+msgstr ""
+
+#: includes/class-awp-system-info.php:939
+#: includes/class-wawp-setup-wizard.php:292
+msgid "Database Tables Status"
+msgstr ""
+
+#: includes/class-awp-system-info.php:940
+msgid "Checks if tables for enabled features are present and correct."
+msgstr ""
+
+#: includes/class-awp-system-info.php:943
+msgid ""
+"One or more database tables for enabled features are missing or incomplete."
+msgstr ""
+
+#: includes/class-awp-system-info.php:943
+msgid "Repair Database Only"
+msgstr ""
+
+#: includes/class-awp-system-info.php:945
+msgid "All database tables for enabled features are present and correct."
+msgstr ""
+
+#: includes/class-awp-system-info.php:948
+#: includes/class-awp-system-info.php:1063
+msgid "Table Name"
+msgstr ""
+
+#: includes/class-awp-system-info.php:948
+msgid "Missing Columns"
+msgstr ""
+
+#: includes/class-awp-system-info.php:970
+#: includes/class-awp-system-info.php:1265
+msgid "Not Found"
+msgstr ""
+
+#: includes/class-awp-system-info.php:972
+msgid "Incomplete"
+msgstr ""
+
+#: includes/class-awp-system-info.php:995
+#: includes/class-wawp-setup-wizard.php:293
+msgid "WP-Cron Status"
+msgstr ""
+
+#: includes/class-awp-system-info.php:996
+msgid "Checks if scheduled tasks for enabled features are running correctly."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1000
+msgid "Hook"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1000
+msgid "Next Run (UTC)"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1019
+msgid "Not Scheduled"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1019
+msgid "Scheduled"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1020
+msgid "Schedule Now"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1032
+msgid "WP-Cron is disabled."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1032
+msgid ""
+"Scheduled tasks will not run. Remove (or set to false) the DISABLE_WP_CRON "
+"constant in wp-config.php, or configure a real server cron job that hits wp-"
+"cron.php."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1038
+msgid "Security & Core Configuration"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1039
+msgid "Important settings for site security and WordPress core functionality."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1057
+msgid "Dangerous Zone"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1058
+msgid ""
+"These actions are destructive and will permanently delete data. This cannot "
+"be undone. Proceed with extreme caution."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1082
+#: includes/class-awp-system-info.php:1207
+#: includes/class-awp-system-info.php:1217
+msgid "Empty Table"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1087
+msgid "No Wawp tables found."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1160
+msgid "Emptying..."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1176
+msgid "Emptied"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1179
+msgid "Success!"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1183
+#: includes/class-awp-system-info.php:1192
+msgid "Error!"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1186
+msgid "An error occurred."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1196
+msgid "Request failed."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1211
+msgid "Confirm Empty?"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1230
+msgid "File not found"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1264
+#: includes/class-awp-system-info.php:1289
+msgid "Writable"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1264
+msgid "Not Writable"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1265
+#: includes/class-awp-system-info.php:1290
+msgid "Found"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1326
+msgid ""
+"Wawp recommends enabling \"High-performance order storage\" and \"Enable "
+"compatibility mode\" in WooCommerce for better performance."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1330
+msgid "Enable these options"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1334
+msgid "I have already activated the setting"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1348
+msgid "Users synced successfully!"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1352
+msgid "Some errors occurred during user sync."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1356
+msgid "User Sync Logs"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1379
+#, php-format
+msgid "Skipped WP user ID #%d (no email)."
+msgstr ""
+
+#: includes/class-awp-system-info.php:1442
+#, php-format
+msgid "Error updating user %1$s: %2$s"
+msgstr ""
+
+#: includes/class-awp-system-info.php:1448
+#, php-format
+msgid "Error inserting user %1$s: %2$s"
+msgstr ""
+
+#: includes/class-instances.php:93 includes/class-instances.php:102
+msgid "Manage Wawp Instances"
+msgstr ""
+
+#: includes/class-instances.php:123
+msgid ""
+"Configure email and WhatsApp sending preferences and control blocked numbers."
+msgstr ""
+
+#: includes/class-instances.php:130
+msgid "Email Sender"
+msgstr ""
+
+#: includes/class-instances.php:131
+msgid "WhatsApp Sender"
+msgstr ""
+
+#: includes/class-instances.php:132
+msgid "Block Manager"
+msgstr ""
+
+#: includes/class-instances.php:147
+msgid "Add New Instance Manually"
+msgstr ""
+
+#: includes/class-instances.php:152
+msgid "e.g., Main Business Line"
+msgstr ""
+
+#: includes/class-instances.php:155 includes/class-instances.php:183
+#: includes/class-instances.php:241 includes/class-instances.php:312
+#: views/wawp-enqueue-scripts.php:241
+msgid "Instance ID"
+msgstr ""
+
+#: includes/class-instances.php:159 includes/class-instances.php:187
+#: includes/class-instances.php:242 includes/class-instances.php:313
+msgid "Access Token"
+msgstr ""
+
+#: includes/class-instances.php:164 includes/class-instances.php:192
+#: includes/class-wawp-campaigns-admin.php:281
+#: includes/class-wawp-flow-builder.php:840
+#: includes/class-wawp-flow-builder.php:885
+#: includes/class-wawp-flow-builder.php:1044
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-instances.php:173
+msgid "Edit Instance"
+msgstr ""
+
+#: includes/class-instances.php:193 includes/class-instances.php:1982
+#: includes/class-wawp-setup-wizard.php:506
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-instances.php:201
+msgid "Scan QR Code to Connect WhatsApp"
+msgstr ""
+
+#: includes/class-instances.php:206
+msgid "Initializingâ€¦"
+msgstr ""
+
+#: includes/class-instances.php:207
+msgid "QR Code"
+msgstr ""
+
+#: includes/class-instances.php:220
+msgid "Import instance from your Wawp account."
+msgstr ""
+
+#: includes/class-instances.php:235
+msgid "Processing, please waitâ€¦"
+msgstr ""
+
+#: includes/class-instances.php:260
+msgid "Connected Numbers"
+msgstr ""
+
+#: includes/class-instances.php:266
+#, php-format
+msgid "of %s numbers are available with your %sSubscription%s."
+msgstr ""
+
+#: includes/class-instances.php:278
+msgid "Add your WhatsApp Numbers"
+msgstr ""
+
+#: includes/class-instances.php:288
+msgid "Scan QR Code"
+msgstr ""
+
+#: includes/class-instances.php:296
+msgid "Import"
+msgstr ""
+
+#: includes/class-instances.php:304
+msgid "Add Manually"
+msgstr ""
+
+#: includes/class-instances.php:314
+msgid "Connection Status"
+msgstr ""
+
+#: includes/class-instances.php:340
+msgid "Blocked Numbers"
+msgstr ""
+
+#: includes/class-instances.php:341
+msgid ""
+"Blocked numbers will no longer be able to log in, sign up, purchase, or "
+"receive messages from your website."
+msgstr ""
+
+#: includes/class-instances.php:346
+msgid "Type number"
+msgstr ""
+
+#: includes/class-instances.php:347 includes/class-wawp-flow-builder.php:882
+msgid "Add"
+msgstr ""
+
+#: includes/class-instances.php:355
+msgid "Enter phone numbers"
+msgstr ""
+
+#: includes/class-instances.php:357
+msgid "Save Block List"
+msgstr ""
+
+#: includes/class-instances.php:397
+msgid "Block list updated successfully."
+msgstr ""
+
+#: includes/class-instances.php:430
+msgid "Test message sent â€“ please check the inbox."
+msgstr ""
+
+#: includes/class-instances.php:432
+msgid "wp_mail() returned false. Check SMTP settings or server logs."
+msgstr ""
+
+#: includes/class-instances.php:450
+msgid "SMTP host is required."
+msgstr ""
+
+#: includes/class-instances.php:477
+msgid "Connection successful! ðŸŽ‰"
+msgstr ""
+
+#: includes/class-instances.php:479
+msgid "Could not connect â€“ server rejected the handshake."
+msgstr ""
+
+#: includes/class-instances.php:483
+#, php-format
+msgid "Connection failed: %s"
+msgstr ""
+
+#: includes/class-instances.php:503
+msgid "SMTP Settings"
+msgstr ""
+
+#: includes/class-instances.php:506
+msgid ""
+"If enabled, all wp_mail() calls will be routed through this SMTP server."
+msgstr ""
+
+#: includes/class-instances.php:516
+msgid "Route emails via SMTP"
+msgstr ""
+
+#: includes/class-instances.php:530
+msgid "SMTP Host"
+msgstr ""
+
+#: includes/class-instances.php:538
+msgid "Port"
+msgstr ""
+
+#: includes/class-instances.php:546
+msgid "Encryption"
+msgstr ""
+
+#: includes/class-instances.php:551 includes/class-wawp-campaigns-admin.php:476
+msgid "None"
+msgstr ""
+
+#: includes/class-instances.php:568
+msgid "From Email"
+msgstr ""
+
+#: includes/class-instances.php:583
+msgid "SMTP Authentication"
+msgstr ""
+
+#: includes/class-instances.php:593 includes/class-wawp-flow-builder.php:1071
+msgid "Username"
+msgstr ""
+
+#: includes/class-instances.php:614
+msgid "Save SMTP Settings"
+msgstr ""
+
+#: includes/class-instances.php:624
+msgid "Send Test Email"
+msgstr ""
+
+#: includes/class-instances.php:626
+msgid "The email address to which you want to send the test."
+msgstr ""
+
+#: includes/class-instances.php:630
+msgid "Check Connection"
+msgstr ""
+
+#: includes/class-instances.php:638
+msgid "Send Test"
+msgstr ""
+
+#: includes/class-instances.php:666
+msgid "SMTP settings saved."
+msgstr ""
+
+#: includes/class-instances.php:675
+msgid "No SSO token found."
+msgstr ""
+
+#: includes/class-instances.php:681
+msgid "Failed to fetch internal instances."
+msgstr ""
+
+#: includes/class-instances.php:686
+msgid "Invalid response from Site A."
+msgstr ""
+
+#: includes/class-instances.php:700
+msgid "Missing required data to add instance."
+msgstr ""
+
+#: includes/class-instances.php:707
+msgid "This instance already exists in your list."
+msgstr ""
+
+#: includes/class-instances.php:727
+msgid "Connected as"
+msgstr ""
+
+#: includes/class-instances.php:731
+msgid "Failed to save the instance to the database."
+msgstr ""
+
+#: includes/class-instances.php:735 includes/class-instances.php:1348
+msgid "Instance added successfully."
+msgstr ""
+
+#: includes/class-instances.php:738
+msgid "Instance is not online or accessible. Cannot add."
+msgstr ""
+
+#: includes/class-instances.php:801
+msgid "API Access Token not found. Please ensure you are connected to Wawp."
+msgstr ""
+
+#: includes/class-instances.php:821
+msgid "Error creating instance (WP_Error):"
+msgstr ""
+
+#: includes/class-instances.php:828
+msgid "Invalid response from create instance API."
+msgstr ""
+
+#: includes/class-instances.php:844
+msgid "Instance created successfully."
+msgstr ""
+
+#: includes/class-instances.php:848
+msgid "Failed to create instance (API error)."
+msgstr ""
+
+#: includes/class-instances.php:863
+msgid "Instance ID and Access Token are required for QR."
+msgstr ""
+
+#: includes/class-instances.php:874
+msgid "Error getting QR code (WP_Error):"
+msgstr ""
+
+#: includes/class-instances.php:880
+msgid "Invalid response from QR code API."
+msgstr ""
+
+#: includes/class-instances.php:888
+msgid "QR Code fetched successfully."
+msgstr ""
+
+#: includes/class-instances.php:893
+msgid ""
+"Failed to get QR code. The instance may already be connected or in an error "
+"state."
+msgstr ""
+
+#: includes/class-instances.php:905
+msgid "Instance ID and Access Token are required for status check."
+msgstr ""
+
+#: includes/class-instances.php:925
+msgid "Invalid or unexpected API response for status check."
+msgstr ""
+
+#: includes/class-instances.php:949
+msgid "Instance details (ID, Token, Name) are required to save."
+msgstr ""
+
+#: includes/class-instances.php:958
+msgid "Instance with this ID already exists locally."
+msgstr ""
+
+#: includes/class-instances.php:967
+msgid "Connected via QR Scan."
+msgstr ""
+
+#: includes/class-instances.php:971
+msgid "Failed to save the new instance to the database."
+msgstr ""
+
+#: includes/class-instances.php:976
+msgid "New instance connected and saved successfully."
+msgstr ""
+
+#: includes/class-instances.php:1000
+msgid "SSO token not found. Please connect via Wawp Connector."
+msgstr ""
+
+#: includes/class-instances.php:1010
+msgid ""
+"Authentication with Wawp.net failed. Please re-login via Wawp Connector."
+msgstr ""
+
+#: includes/class-instances.php:1022
+msgid "Could not connect to Wawp.net to validate session."
+msgstr ""
+
+#: includes/class-instances.php:1074
+msgid "No instances found."
+msgstr ""
+
+#: includes/class-instances.php:1087
+#, php-format
+msgid "%d instances checked & updated."
+msgstr ""
+
+#: includes/class-instances.php:1097
+msgid "No file or upload error."
+msgstr ""
+
+#: includes/class-instances.php:1102
+msgid "Cannot open file."
+msgstr ""
+
+#: includes/class-instances.php:1236
+msgid "Instance ID and Access Token are required for polling status."
+msgstr ""
+
+#: includes/class-instances.php:1238
+msgid "Client-side data missing for polling."
+msgstr ""
+
+#: includes/class-instances.php:1254
+msgid "API Call Error (Network/cURL) for /reconnect:"
+msgstr ""
+
+#: includes/class-instances.php:1269
+msgid "Invalid or unexpected API response format from /reconnect."
+msgstr ""
+
+#: includes/class-instances.php:1271
+msgid ""
+"API response from /reconnect was not valid JSON or missed expected fields."
+msgstr ""
+
+#: includes/class-instances.php:1298 includes/class-instances.php:1376
+msgid "All fields are required."
+msgstr ""
+
+#: includes/class-instances.php:1311 includes/class-instances.php:1418
+msgid "Network error checking status:"
+msgstr ""
+
+#: includes/class-instances.php:1321 includes/class-instances.php:1427
+msgid "Invalid status response from server."
+msgstr ""
+
+#: includes/class-instances.php:1328
+msgid "Instance is not online. Cannot add."
+msgstr ""
+
+#: includes/class-instances.php:1340
+msgid "Instance is online."
+msgstr ""
+
+#: includes/class-instances.php:1344
+msgid "Failed to save the instance."
+msgstr ""
+
+#: includes/class-instances.php:1356
+msgid "Invalid instance ID."
+msgstr ""
+
+#: includes/class-instances.php:1361
+msgid "Failed to delete instance."
+msgstr ""
+
+#: includes/class-instances.php:1365
+msgid "Instance deleted successfully."
+msgstr ""
+
+#: includes/class-instances.php:1387
+msgid "Failed to update instance."
+msgstr ""
+
+#: includes/class-instances.php:1396
+msgid "Instance updated successfully."
+msgstr ""
+
+#: includes/class-instances.php:1406
+msgid "Instance ID & Access Token are required."
+msgstr ""
+
+#: includes/class-instances.php:1441
+msgid "Failed to update status in database."
+msgstr ""
+
+#: includes/class-instances.php:1457
+msgid "Instance ID and Access Token are required."
+msgstr ""
+
+#: includes/class-instances.php:1461
+msgid "Wawp Notification work"
+msgstr ""
+
+#: includes/class-instances.php:1499
+msgid "Test message sent successfully!"
+msgstr ""
+
+#: includes/class-instances.php:1503
+msgid "Unknown error"
+msgstr ""
+
+#: includes/class-instances.php:1505
+msgid "Failed to send test message: "
+msgstr ""
+
+#: includes/class-instances.php:1573
+#, php-format
+msgid "Connected as %s"
+msgstr ""
+
+#: includes/class-instances.php:1841 includes/class-wawp-setup-wizard.php:84
+#: includes/class-wawp-setup-wizard.php:617
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: includes/class-instances.php:1897 includes/class-wawp-setup-wizard.php:466
+msgid "WhatsApp OTP Signup"
+msgstr ""
+
+#: includes/class-instances.php:1905 includes/class-wawp-connector.php:136
+#: includes/class-wawp-connector.php:172 includes/class-wawp-connector.php:248
+#: includes/class-wawp-connector.php:345
+#: includes/class-wawp-setup-wizard.php:467
+msgid "Checkout OTP Verification"
+msgstr ""
+
+#: includes/class-instances.php:1914 includes/class-wawp-setup-wizard.php:468
+msgid "Resend Failed Messages"
+msgstr ""
+
+#: includes/class-instances.php:1927 includes/class-wawp-setup-wizard.php:476
+msgid "Choose WhatsApp Sender"
+msgstr ""
+
+#: includes/class-instances.php:1928 includes/class-wawp-setup-wizard.php:477
+msgid "Select the WhatsApp number that will be used for each feature."
+msgstr ""
+
+#: includes/class-instances.php:1938
+msgid "All features are disabled, so there are no sender fields to configure."
+msgstr ""
+
+#: includes/class-instances.php:1955 includes/class-wawp-dashboard.php:267
+msgid "Notifications"
+msgstr ""
+
+#: includes/class-instances.php:1969
+msgid ""
+"Number(s) that will send Notifactions events, you can select more than one."
+msgstr ""
+
+#: includes/class-instances.php:2005 includes/class-wawp-setup-wizard.php:410
+msgid "-- Select an online instance --"
+msgstr ""
+
+#: includes/class-instances.php:2019 includes/class-wawp-setup-wizard.php:424
+msgid "No online instances found. "
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:39
+msgid "Campaign created successfully."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:42
+msgid "Campaign updated successfully."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:45
+msgid "Campaign deleted successfully."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:48
+msgid "Campaign saved for later."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:58
+#: includes/class-wawp-campaigns-advanced.php:53
+msgid "Wawp Campaigns"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:59
+msgid ""
+"Manage your existing campaigns, pause/resume, check progress, or edit them."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:76
+#, php-format
+msgid "No campaigns found. <a href=\"%s\">Add a new campaign?</a>"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:85
+msgid "Progress"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:87
+#: includes/class-wawp-campaigns-admin.php:569
+msgid "Channels"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:88
+msgid "Next Run"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:109
+#, php-format
+msgid "WhatsApp – Sent: %1$d, Errors: %2$d, Pending: %3$d"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:122
+#: includes/class-wawp-campaigns-admin.php:153
+#, php-format
+msgid "(S: %1$s, E: %2$s)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:140
+#, php-format
+msgid "Email – Sent: %1$d, Errors: %2$d, Pending: %3$d"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:173
+msgid "Paused"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:178
+msgid "Completed"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:181
+msgid "(Will Repeat)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:186
+msgid "Risky"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:190
+msgid "Saved"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:194
+#: includes/class-wawp-connector.php:218 includes/class-wawp-connector.php:291
+#: includes/class-wawp-connector.php:314
+msgid "Active"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:206
+msgid "WhatsApp Enabled"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:209
+msgid "Email Enabled"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:224
+msgid "Re-run"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:232
+msgid "Stop Repeat"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:236
+msgid "Edit & Run"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:238
+msgid "Approve Run"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:247
+msgid "Resume"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:255
+msgid "Pause"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:265
+msgid "Are you sure you want to delete this campaign and its queue/logs?"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:276
+msgid "High Volume Warning"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:277
+msgid ""
+"This campaign targets a large number of recipients or has a high daily "
+"sending limit. Sending too many messages too quickly can lead to your "
+"WhatsApp number being blocked."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:278
+msgid ""
+"It is strongly recommended to send <strong>500 messages per day or less</"
+"strong> per number to ensure its safety."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:279
+msgid "Do you understand the risk and wish to proceed?"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:280
+msgid "Yes, Run Campaign"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:290
+msgid "Add New Campaign"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:294
+#: includes/class-wawp-campaigns-admin.php:430
+msgid "WhatsApp Estimated Recipients:"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:298
+#: includes/class-wawp-campaigns-admin.php:431
+msgid "Email Estimated Recipients:"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:310
+msgid "Step 1: Audience, Channels & Name"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:315
+#: includes/class-wawp-campaigns-admin.php:329
+#: includes/class-wawp-campaigns-admin.php:350
+#: includes/class-wawp-campaigns-admin.php:367
+#: includes/class-wawp-campaigns-admin.php:384
+#: includes/class-wawp-campaigns-admin.php:401
+msgid "Save for Later"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:318
+msgid "Next: Additional Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:324
+msgid "Step 2: Additional Customer Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:332
+#: includes/class-wawp-campaigns-admin.php:353
+#: includes/class-wawp-campaigns-admin.php:370
+#: includes/class-wawp-campaigns-admin.php:387
+#: includes/class-wawp-campaigns-admin.php:404
+#: includes/class-wawp-setup-wizard.php:186
+#: includes/class-wawp-setup-wizard.php:230
+#: includes/class-wawp-setup-wizard.php:249
+#: includes/class-wawp-setup-wizard.php:276
+#: includes/class-wawp-setup-wizard.php:320
+msgid "Back"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:335
+msgid "Next: WooCommerce Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:341
+msgid "Step 3: WooCommerce Customer Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:346
+msgid "WooCommerce is not active. This step is disabled."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:356
+msgid "Next: Message Content"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:362
+msgid "Step 4: Message Content"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:373
+msgid "Next: Scheduling"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:379
+msgid "Step 5: Scheduling & Timing"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:390
+msgid "Next: Confirm"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:396
+msgid "Step 6: Confirmation"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:397
+msgid "Review your campaign settings below."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:422
+msgid "Invalid campaign ID."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:427
+#, php-format
+msgid "Edit Campaign: %1$s (#%2$d)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:441
+msgid "Update Campaign"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:530
+#: includes/class-wawp-campaigns-admin.php:675
+#, php-format
+msgid "%s (ID: %d)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:551
+#, php-format
+msgid "%1$s (%2$s - ID: %3$d)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:567
+msgid "Campaign Name"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:572
+msgid "Send WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:576
+msgid "Send Email"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:579
+msgid "At least one channel (WhatsApp or Email) must be enabled."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:584
+msgid "Instances (for WhatsApp)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:589
+msgid "Select sending instances..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:591
+msgid "Required if \"Send WhatsApp\" channel is enabled."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:596
+msgid "Target User Roles"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:596
+msgid "Select user roles..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:597
+msgid "Target Specific Users"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:597
+msgid "Select specific users..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:599
+msgid "External Numbers (WhatsApp)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:600
+msgid "One phone number per line (e.g., 1xxxxxxxxxx)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:602
+msgid ""
+"Enter numbers if you want to target users not in your WordPress database "
+"(for WhatsApp only)."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:604
+msgid "External Emails"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:605
+msgid "One email address per line (e.g., user@example.com)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:606
+msgid ""
+"Enter email addresses if you want to target recipients not in your WordPress "
+"database (for Email only)."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:608
+msgid "Only Verified Phones? (WhatsApp)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:610
+msgid ""
+"If checked, only send WhatsApp to users whose phone numbers are marked as "
+"verified by WAWP core. This filter applies only to WhatsApp recipients from "
+"WordPress users."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:659
+msgid ""
+"These filters apply to the users selected in Step 1. They help narrow down "
+"your audience based on their profile data."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:660
+msgid "Billing Country"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:660
+msgid "All Countries (No Filter)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:660
+msgid ""
+"Filter by user billing country. If \"All Countries\" is selected (or none), "
+"it applies to every country."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:661
+msgid "WordPress Profile Language"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:661
+msgid "All Languages (No Filter)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:661
+msgid ""
+"Filter by user's WordPress profile language. If \"All Languages\" is "
+"selected (or none), it applies to every profile language."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:685
+msgid ""
+"These filters apply to the users selected in Step 1. They help narrow down "
+"your audience based on their WooCommerce purchase history."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:686
+msgid "Min. Total Spent"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:686
+msgid "e.g., 100.00"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:686
+msgid "Only include customers who spent at least this amount."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:687
+msgid "Min. Order Count"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:687
+msgid "e.g., 2"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:687
+msgid "Only include customers with at least this many orders."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:688
+msgid "Purchased Specific Products"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:688
+msgid "Filter by products purchased..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:689
+msgid "Order Statuses (for Product Filter)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:689
+msgid "Consider these order statuses for product purchase filter..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:691
+msgid "WooCommerce is not active. No customer filters available."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:730
+msgid "Text Only"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:730
+msgid "Text with Media (WhatsApp)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:730
+msgid "Share WordPress Post/Page"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:730
+msgid "Share WooCommerce Product"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:734
+msgid ""
+"\"Text with Media\" is specific to WhatsApp. For Email, media is embedded in "
+"the HTML body. Post/Product sharing adds content to enabled channels."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:737
+msgid "WhatsApp Content"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:739
+msgid "WhatsApp Text"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:740
+msgid "Enter your WhatsApp message here..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:742
+msgid ""
+"This text will be used unless a Post/Product share replaces it (if \"Append"
+"\" is not checked below)."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:744
+msgid "WhatsApp Media"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:746
+msgid "Enter media URL (image, video, doc)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:748
+msgid "Upload/Select Media"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:752
+msgid "Media Preview"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:754
+msgid "View Linked Media"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:756
+msgid ""
+"Required if Message Type is \"Text with Media\" and WhatsApp is enabled."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:759
+msgid "Email Content"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:761
+#: includes/class-wawp-flow-builder.php:949
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:762
+msgid "Your Email Subject"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:765
+#: includes/class-wawp-flow-builder.php:959
+msgid "Email Body"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:768
+msgid ""
+"Compose your email message. HTML is supported. Placeholders like "
+"{first_name}, {last_name} can be used."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:771
+msgid "Select Post/Page"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:772
+msgid "Choose a post or page..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:773
+#: includes/class-wawp-campaigns-admin.php:790
+msgid "(None)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:779
+msgid "Append post info to message text (if custom text is provided)?"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:780
+msgid "Include in shared post info:"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:781
+#: includes/class-wawp-campaigns-admin.php:798
+msgid "Title"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:782
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:783
+#: includes/class-wawp-campaigns-admin.php:801
+#: includes/class-wawp-chat-widget.php:555
+msgid "Link"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:784
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:785
+msgid ""
+"If \"Append\" is not checked, the Post/Page content will replace the main "
+"message text for the respective channel(s). Featured Image is primarily for "
+"WhatsApp media or email HTML."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:788
+msgid "Select Product"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:789
+msgid "Choose a product..."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:796
+msgid "Append product info to message text (if custom text is provided)?"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:797
+msgid "Include in shared product info:"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:799
+msgid "Price"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:800
+msgid "Short Description"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:802
+msgid "Main Image"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:803
+msgid ""
+"If \"Append\" is not checked, the Product content will replace the main "
+"message text for the respective channel(s). Main Image is primarily for "
+"WhatsApp media or email HTML."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:828
+msgid "WhatsApp Scheduling"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:830
+#: includes/class-wawp-campaigns-admin.php:838
+msgid "Min Interval (sec)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:830
+msgid "Minimum seconds between WhatsApp messages."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:831
+#: includes/class-wawp-campaigns-admin.php:839
+msgid "Max Interval (sec)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:831
+msgid "Maximum seconds between WhatsApp messages."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:832
+msgid "WhatsApp Daily Send Limit"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:833
+msgid ""
+"Max WhatsApp messages per day. 0 for no limit. Recommended: 500 or less."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:836
+msgid "Email Scheduling"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:838
+msgid "Minimum seconds between Email messages."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:839
+msgid "Maximum seconds between Email messages."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:840
+msgid "Email Daily Send Limit"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:841
+msgid "Max Email messages per day. 0 for no limit."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:843
+msgid "Common Scheduling (Overall)"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:844
+msgid "Schedule Start"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:845
+msgid "Set to Now"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:845
+msgid "Leave blank to start ASAP after creation/activation."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:846
+msgid "Repeat Campaign"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:847
+msgid "No Repeat"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:847
+msgid "Daily"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:847
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:847
+msgid "Annual"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:847
+msgid "Custom Interval"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:852
+msgid "Custom Repeat Days"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:852
+msgid "Number of days after completion to repeat."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:858
+msgid "Audience, Channels & Name"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:862
+msgid "Additional Customer Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:866
+msgid "WooCommerce Customer Filters"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:870
+msgid "WooCommerce is not active. WooCommerce specific filters are disabled."
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:874
+msgid "Message Content"
+msgstr ""
+
+#: includes/class-wawp-campaigns-admin.php:878
+msgid "Scheduling & Timing"
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:55
+msgid ""
+"You must purchase the multi-personalized group marketing feature to access "
+"this section."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:56
+#: includes/class-wawp-connector.php:232 includes/class-wawp-connector.php:617
+msgid "Learn More"
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:116
+msgid "Segmentation feature not enabled. Cannot calculate recipients."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:146
+msgid "Segmentation feature not enabled. Cannot preview content."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:167
+msgid "Segmentation feature not enabled. Cannot create campaigns."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:412
+msgid "Segmentation feature not enabled. Cannot update campaigns."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:689
+msgid "Segmentation feature not enabled. Cannot pause campaigns."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:728
+msgid "Segmentation feature not enabled. Cannot delete campaigns."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:764
+msgid "Segmentation feature not enabled. Cannot perform campaign actions."
+msgstr ""
+
+#: includes/class-wawp-campaigns-advanced.php:888
+msgid "Segmentation feature not enabled. Cannot run risky campaigns."
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:87
+#: includes/class-wawp-chat-widget.php:106
+msgid "No phone"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:100
+msgid "Contact click recorded"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:158
+msgid "Stats cleared."
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:192
+#: includes/class-wawp-chat-widget.php:322
+#: includes/class-wawp-chat-widget.php:864
+msgid "Reach us on:"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:194
+#: includes/class-wawp-chat-widget.php:505
+#: includes/class-wawp-chat-widget.php:868
+msgid "Typically replies within minutes"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:195
+#: includes/class-wawp-chat-widget.php:501
+#: includes/class-wawp-chat-widget.php:867
+msgid "How may we help you?"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:196
+#: includes/class-wawp-chat-widget.php:497
+#: includes/class-wawp-chat-widget.php:866
+msgid "Let's chat"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:284
+#: includes/class-wawp-chat-widget.php:291
+#: includes/class-wawp-chat-widget.php:299
+msgid "Whatsapp Chat Widget"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:341
+msgid "Add direct WhatsApp chat, social media links, and more with stats."
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:354
+#: includes/class-wawp-chat-widget.php:523
+msgid "Social Links"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:355
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:356
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:362
+msgid "Enable Chat Button"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:373
+msgid "WhatsApp Numbers"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:461
+msgid "Done"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:475
+msgid "Add New Number"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:481
+msgid "Disable \"Powered by\" link"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:491
+msgid "Contact Card"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:496
+msgid "Widget Header"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:500
+msgid "Welcome Message"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:504
+msgid "Typical Reply Time"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:508
+msgid "Default Profile Picture"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:512
+msgid "Upload"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:529
+msgid "Intro Text"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:543
+msgid "Icon"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:568
+msgid "Add New Link"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:576
+msgid "Clicks Tracking"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:577
+msgid "View usage data per contact below."
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:579
+msgid "Clear Data"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:584
+#: includes/class-wawp-chat-widget.php:600
+#: includes/class-wawp-chat-widget.php:639
+msgid "Chat Button Clicks"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:590
+#: includes/class-wawp-chat-widget.php:601
+#: includes/class-wawp-chat-widget.php:640
+msgid "WhatsApp Opens"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:621
+msgid "No data yet"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:631
+msgid "Top Clicks by Page"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:632
+msgid "Displays the top 10 pages with chat button clicks or WhatsApp opens."
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:638
+msgid "Page"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:641
+msgid "Total"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:652
+msgid "(No post/page context)"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:660
+msgid "(Unknown Page)"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:674
+msgid "No page data yet"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:685
+msgid "Display Settings"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:690
+msgid "Show on Desktop"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:697
+msgid "Show on Mobile"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:706
+msgid "Button Position"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:720
+msgid "Customize Style"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:723
+msgid "Chat Icon"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:734
+msgid "Icon Size"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:741
+msgid "Corner Radius"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:749
+msgid "Change Colors"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:753
+msgid "Icon Background"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:757
+msgid "Icon Color"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:766
+msgid "Where to Show"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:771
+msgid "Show on all pages"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:779
+msgid "Exclude Pages:"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:787
+#: includes/class-wawp-chat-widget.php:804
+msgid "Select page"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:815
+msgid "Add New Condition"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:912
+#: includes/class-wawp-chat-widget.php:939
+msgid "Avatar"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:927
+msgid "John Doe"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:929
+msgid "Hello!"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:932
+msgid "I am on this page: "
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:954
+msgid "Scan QR code"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:958
+msgid "Open WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-chat-widget.php:987
+msgid "Powered by"
+msgstr ""
+
+#: includes/class-wawp-connector.php:8 includes/class-wawp-connector.php:117
+#: includes/class-wawp-connector.php:153
+msgid "You must be logged in to Wawp to access all features."
+msgstr ""
+
+#: includes/class-wawp-connector.php:9
+msgid "Your account has been banned for: "
+msgstr ""
+
+#: includes/class-wawp-connector.php:10
+msgid "Your account has been banned for misuse of the service"
+msgstr ""
+
+#: includes/class-wawp-connector.php:11
+msgid "Your account has been banned."
+msgstr ""
+
+#: includes/class-wawp-connector.php:12
+msgid "No subscription found."
+msgstr ""
+
+#: includes/class-wawp-connector.php:13
+msgid ""
+"Current site is not active or is in overload status. Data cannot be "
+"displayed."
+msgstr ""
+
+#: includes/class-wawp-connector.php:14
+msgid "You have reached the maximum number of instances for all sites."
+msgstr ""
+
+#: includes/class-wawp-connector.php:15
+msgid "You must be logged in to generate a token."
+msgstr ""
+
+#: includes/class-wawp-connector.php:22
+msgid "Unknown message key"
+msgstr ""
+
+#: includes/class-wawp-connector.php:71
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-wawp-connector.php:72
+msgid "Disconnect"
+msgstr ""
+
+#: includes/class-wawp-connector.php:91
+msgid "You're not allowed to use Wawp."
+msgstr ""
+
+#: includes/class-wawp-connector.php:92
+msgid ""
+"We have detected a violation or restriction on your account, which currently "
+"prevents you from using Wawp and accessing advanced features. To restore "
+"full access, please reach out to our support team."
+msgstr ""
+
+#: includes/class-wawp-connector.php:116 includes/class-wawp-connector.php:152
+msgid "Get Started for Free"
+msgstr ""
+
+#: includes/class-wawp-connector.php:127 includes/class-wawp-connector.php:163
+msgid "Login to Wawp"
+msgstr ""
+
+#: includes/class-wawp-connector.php:131 includes/class-wawp-connector.php:167
+#: includes/class-wawp-connector.php:243 includes/class-wawp-connector.php:340
+msgid "Order Update notifications"
+msgstr ""
+
+#: includes/class-wawp-connector.php:132 includes/class-wawp-connector.php:168
+#: includes/class-wawp-connector.php:244 includes/class-wawp-connector.php:341
+msgid "Admin Order Alerts"
+msgstr ""
+
+#: includes/class-wawp-connector.php:133 includes/class-wawp-connector.php:169
+#: includes/class-wawp-connector.php:245 includes/class-wawp-connector.php:342
+msgid "Follow-up Notifications"
+msgstr ""
+
+#: includes/class-wawp-connector.php:134 includes/class-wawp-connector.php:170
+msgid "Advanced Phone Fields"
+msgstr ""
+
+#: includes/class-wawp-connector.php:135 includes/class-wawp-connector.php:171
+#: includes/class-wawp-connector.php:246 includes/class-wawp-connector.php:343
+msgid "WhatsApp OTP Login/signup"
+msgstr ""
+
+#: includes/class-wawp-connector.php:137 includes/class-wawp-connector.php:173
+#: includes/class-wawp-connector.php:249 includes/class-wawp-connector.php:346
+msgid "Advanced Message History"
+msgstr ""
+
+#: includes/class-wawp-connector.php:138 includes/class-wawp-connector.php:174
+#: includes/class-wawp-connector.php:250 includes/class-wawp-connector.php:347
+msgid "WhatsApp Chat Widget"
+msgstr ""
+
+#: includes/class-wawp-connector.php:139 includes/class-wawp-connector.php:175
+#: includes/class-wawp-connector.php:251 includes/class-wawp-connector.php:348
+msgid "Country Code Selector"
+msgstr ""
+
+#: includes/class-wawp-connector.php:140 includes/class-wawp-connector.php:176
+#: includes/class-wawp-connector.php:253 includes/class-wawp-connector.php:350
+msgid "and more..."
+msgstr ""
+
+#: includes/class-wawp-connector.php:203
+msgid ""
+"You can manage your subscription, update payment method and view your "
+"invoices right from "
+msgstr ""
+
+#: includes/class-wawp-connector.php:205
+msgid "your account."
+msgstr ""
+
+#: includes/class-wawp-connector.php:214 includes/class-wawp-connector.php:288
+msgid "Wawp Pro Lifetime"
+msgstr ""
+
+#: includes/class-wawp-connector.php:215 includes/class-wawp-connector.php:289
+msgid "Great, you now have lifetime access"
+msgstr ""
+
+#: includes/class-wawp-connector.php:229
+msgid "You're currently on a Free Plan."
+msgstr ""
+
+#: includes/class-wawp-connector.php:230
+msgid "With these limits: 250 messages/mo, 1 WhatsApp number."
+msgstr ""
+
+#: includes/class-wawp-connector.php:238 includes/class-wawp-connector.php:335
+msgid "Get 2000x more usage with Wawp Pro"
+msgstr ""
+
+#: includes/class-wawp-connector.php:240 includes/class-wawp-connector.php:337
+msgid "500,000 Messages/month"
+msgstr ""
+
+#: includes/class-wawp-connector.php:241 includes/class-wawp-connector.php:338
+msgid "Connect 10 WhatsApp numbers"
+msgstr ""
+
+#: includes/class-wawp-connector.php:242 includes/class-wawp-connector.php:339
+msgid "Unlimited Site Licenses"
+msgstr ""
+
+#: includes/class-wawp-connector.php:247 includes/class-wawp-connector.php:344
+msgid "Custom Login/Signup Pages"
+msgstr ""
+
+#: includes/class-wawp-connector.php:252 includes/class-wawp-connector.php:349
+msgid "24/7 Priority Ticket Support"
+msgstr ""
+
+#: includes/class-wawp-connector.php:258 includes/class-wawp-connector.php:355
+msgid "Choose Plan"
+msgstr ""
+
+#: includes/class-wawp-connector.php:260 includes/class-wawp-connector.php:357
+msgid "Learn about Wawp Pro"
+msgstr ""
+
+#: includes/class-wawp-connector.php:311
+msgid "Wawp Pro"
+msgstr ""
+
+#: includes/class-wawp-connector.php:312
+msgid "Your next bill is due on "
+msgstr ""
+
+#: includes/class-wawp-connector.php:326
+msgid "Your subscription is "
+msgstr ""
+
+#: includes/class-wawp-connector.php:558
+msgid "Data pushed successfully"
+msgstr ""
+
+#: includes/class-wawp-connector.php:607
+msgid "Site Not Active Promotion"
+msgstr ""
+
+#: includes/class-wawp-connector.php:608
+msgid ""
+"This site is inactive or you have no active subscription. Check our next-"
+"level subscription to activate more sites:"
+msgstr ""
+
+#: includes/class-wawp-connector.php:610
+msgid "Activate multiple domains"
+msgstr ""
+
+#: includes/class-wawp-connector.php:611
+msgid "Premium site analytics"
+msgstr ""
+
+#: includes/class-wawp-connector.php:613
+msgid "Upgrade now to activate!"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:18 includes/class-wawp-dashboard.php:28
+#: includes/class-wawp-dashboard.php:38
+msgid "Wawp Dashboard"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:128
+msgid "Welcome to Wawp"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:130
+msgid "Thank you so much for using us!"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:142
+msgid ""
+"To enable Order Notifications, WooCommerce must be installed and active."
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:153
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:164
+msgid "Install WooCommerce"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:179
+msgid "Total WordPress Users"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:185
+msgid "View All Users"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:198
+msgid "Users with Phone number"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:296
+msgid "OTP Verifications"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:317
+msgid "Enable Login OTP"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:336
+msgid "Enable Signup OTP"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:355
+msgid "Enable Checkout OTP"
+msgstr ""
+
+#: includes/class-wawp-dashboard.php:381
+msgid "Get now Segmentation Notifications feature"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:16
+msgid "Email Log Entry"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:17
+msgid "Email Log Entries"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:25
+#: includes/class-wawp-email-log-list-table.php:272
+msgid "Campaign"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:26
+msgid "Email Recipient"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:28
+msgid "Subject"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:30
+#: includes/class-wawp-email-log-list-table.php:121
+msgid "Opened"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:31
+msgid "First Open"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:32
+msgid "Date Sent"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:97
+msgid "Guest/Manual"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:107
+#, php-format
+msgid "User: %s (#%d)"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:112
+msgid "(No Subject)"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:256
+msgid "All Campaigns"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:264
+msgid "All Statuses"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:265
+msgid "Pending"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:268
+msgid "Readed"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:271
+msgid "All Types"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:273
+msgid "Manual"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:274
+msgid "Abandoned Cart"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:276
+msgid "Filter"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:288
+msgid "Delete Selected Logs"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:302
+#, php-format
+msgid "%d log entry deleted."
+msgid_plural "%d log entries deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wawp-email-log-list-table.php:304
+msgid "Error deleting log entries."
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:370
+msgid "Total Logged"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:371
+msgid "All entries in current view."
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:377
+msgid "Emails Sent"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:378
+msgid "Successfully processed & sent."
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:384
+msgid "Unique Reads"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:385
+#, php-format
+msgid "%.2f%% Read Rate (of sent)"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:391
+msgid "Emails Pending"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:392
+msgid "Queued for sending."
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:398
+msgid "Send Errors"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:399
+msgid "Failed to send."
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:405
+msgid "Unique Recipients"
+msgstr ""
+
+#: includes/class-wawp-email-log-list-table.php:406
+msgid "Unique emails successfully sent to."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:49
+#: includes/class-wawp-flow-builder.php:135
+msgid "Notifications Bulider"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:53
+msgid "You must Login to use Notifications Builder."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:90
+#: includes/class-wawp-flow-builder.php:380 views/wawp-enqueue-scripts.php:65
+msgid "When"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:91
+#: includes/class-wawp-flow-builder.php:384 views/wawp-enqueue-scripts.php:66
+msgid "Rule"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:136
+msgid "Unlimited notification options."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:148
+msgid "Expand your global reach"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:150
+msgid ""
+"Send notifications to your customers wherever they are, in their local "
+"language."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:156
+msgid "Add language"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:165
+msgid "Unlock Multilingual Notifications"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:166
+msgid "Speak to customers in their own language and boost engagement."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:174
+msgid "Get the Multilingual Add-on"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:188
+msgid "Main Language"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:190
+msgid "Select the default language for notifications if a language is not set."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:231
+msgid ""
+"No languages configured yet. Please add a language using the button above "
+"and save settings."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:242
+msgid "Main"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:246
+msgid "Remove this language configuration"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:262
+#, php-format
+msgid "Notification Rules for %s"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:269
+#, php-format
+msgid "Language Code: %s"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:278
+msgid "Add New Notification Rule"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:284
+msgid "Copy to…"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:293
+msgid "You have reached the maximum cards."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:294
+msgid "Upgrade to the Pro plan to add more cards."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:297
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:306
+msgid ""
+"No notification rules configured for this language yet. Click \"Add New "
+"Notification Rule\" to create one."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:340
+#: includes/class-wawp-flow-builder.php:353
+#: includes/class-wawp-flow-builder.php:901 views/wawp-enqueue-scripts.php:61
+msgid "User WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:343
+#: includes/class-wawp-flow-builder.php:359
+#: includes/class-wawp-flow-builder.php:907 views/wawp-enqueue-scripts.php:62
+msgid "Admin WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:346
+#: includes/class-wawp-flow-builder.php:355
+#: includes/class-wawp-flow-builder.php:904
+#: includes/class-wawp-flow-builder.php:1073 views/wawp-enqueue-scripts.php:63
+msgid "User Email"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:349
+#: includes/class-wawp-flow-builder.php:361
+#: includes/class-wawp-flow-builder.php:910 views/wawp-enqueue-scripts.php:64
+msgid "Admin Email"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:364
+msgid "User & Admin WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:367
+msgid "User & Admin Email"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:372
+msgid "User WhatsApp & Admin WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:374
+msgid "User Email & Admin Email"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:382
+msgid "send to"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:405
+msgid "Edit Templates"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:416
+msgid "Duplicate this notification rule"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:421
+msgid "Remove this notification rule"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:440
+msgid "Trigger"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:457
+msgid "Send Timing"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:463
+msgid "Immediately"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:466
+msgid "After a Delay"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:473
+msgid "Minutes"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:476
+msgid "Hours"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:479
+msgid "Days"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:492
+msgid "Send To"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:506
+msgid "User"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:507
+msgid "Admin"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:508
+msgid "User &amp; Admin"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:520
+msgid "Send Via"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:530 views/wawp-enqueue-scripts.php:84
+msgid "E‑mail"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:531
+msgid "WhatsApp &amp; E‑mail"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:542
+msgid "Select Admins to get notifications"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:565
+msgid "Search any user by name, email, or ID. You can select multiple users."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:576
+msgid "Template Status"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:583 views/wawp-enqueue-scripts.php:68
+msgid "WhatsApp Template Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:584 views/wawp-enqueue-scripts.php:69
+msgid "WhatsApp Not Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:590 views/wawp-enqueue-scripts.php:70
+msgid "Email Template Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:591 views/wawp-enqueue-scripts.php:71
+msgid "Email Not Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:597 views/wawp-enqueue-scripts.php:72
+msgid "Admin WhatsApp Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:598 views/wawp-enqueue-scripts.php:73
+msgid "Admin WhatsApp Not Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:604 views/wawp-enqueue-scripts.php:74
+msgid "Admin Email Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:605 views/wawp-enqueue-scripts.php:75
+msgid "Admin Email Not Set"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:609
+msgid "Click the Edit button above to open the template editor popup."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:643
+msgid "Send Product Image"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:651
+msgid ""
+"If enabled, the featured image of the first product in the order will be "
+"sent with the WhatsApp notification."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:667
+msgid "Country Filter"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:668
+msgid "Products Filter"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:669
+msgid "Payment Filter"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:699
+msgid "Billing Country – Only send if"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:706
+msgid "Any country"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:712
+msgid ""
+"Send only if the customer’s billing country is one of these. Leave empty to "
+"apply to all countries."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:721
+msgid "Billing Country – DO NOT send if"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:732
+msgid ""
+"Do NOT send if the customer’s billing country is one of these. This "
+"overrides the whitelist."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:740
+msgid "Products – Only send if order CONTAINS"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:750
+msgid ""
+"Send only if the order contains at least one of the selected products. Leave "
+"empty to allow any product."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:759
+msgid "Products – DO NOT send if order CONTAINS"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:769
+msgid ""
+"Do NOT send if the order contains any of the selected products. This "
+"overrides the whitelist."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:776
+msgid "Payment Gateway Filter"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:781
+msgid "All Gateways"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:797
+msgid ""
+"Send only for orders paid with the selected gateways. Leave empty to apply "
+"to all payment methods."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:812
+msgid "Save All Settings"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:824
+msgid "Copy Rules to Another Language"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:826
+msgid ""
+"This will copy all rules from the source language to the destination "
+"language you select below."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:829
+msgid "Destination Language:"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:836
+msgid "Confirm Copy"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:854
+msgid "Add Language"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:857
+msgid "Select the language you'll translate the notifications to."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:862
+msgid "-- Select a Language --"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:896
+msgid "Edit Notification"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:916
+msgid "User WhatsApp Message"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:920
+msgid "WhatsApp Message"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:926
+#: includes/class-wawp-flow-builder.php:997
+msgid "Insert a placeholder"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:945
+msgid "User Email Message"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:981
+#: includes/class-wawp-flow-builder.php:1032
+msgid "HTML is allowed. Use same placeholders as above."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:988
+#: includes/class-wawp-flow-builder.php:992
+msgid "Admin WhatsApp Message"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1015
+msgid "Admin Email Message"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1019
+msgid "Admin Email Subject"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1027
+msgid "Admin Email Body"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1041
+msgid "Finish & Save"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1063
+msgid "Always available"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1064
+msgid "Site Title"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1065
+msgid "Home URL"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1066
+msgid "Site Tagline"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1067
+#: includes/class-wawp-setup-wizard.php:152
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1070
+msgid "User Login/Signup"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1072
+msgid "Display Name"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1076
+msgid "Phone number"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1079
+msgid "Admin only"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1080
+msgid "Admin Name"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1086
+msgid "WooCommerce Order"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1087
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1088
+msgid "Order Total"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1089
+msgid "Currency"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1090
+msgid "Order Date"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1095
+msgid "Product Name"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1096
+msgid "Customer Note"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1101
+msgid "WooCommerce Subscription"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1102
+msgid "Subscription ID"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1103
+msgid "Subscription Total"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1104
+msgid "Subscription Status"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1105
+msgid "Next Payment Date"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1106
+msgid "Renewal Order ID"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1107
+msgid "Renewal Amount"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1118
+msgid "Database manager not initialised – cannot save."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1127
+msgid ""
+"You have reached the maximum of 5 notification rules for the Free plan. "
+"Please upgrade to add more."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1131
+msgid "New rule added. Please configure and save."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1144
+msgid "Language removed."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1157
+msgid "Language added."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1169
+msgid "Rule removed."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1180
+msgid "Rule duplicated."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1196
+msgid "Rules copied. Please translate and save."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1207
+msgid ""
+"Multi-language feature is not active on your plan. Additional language "
+"configurations have been removed."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1287
+msgid "All settings and rules saved."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1565
+msgid "User Login"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1569
+msgid "User Signup"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1579
+#, php-format
+msgid "Order Status: %s"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1586
+msgid "Order: Note to Customer Added"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1597
+#, php-format
+msgid "Subscription Status: %s"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1606
+msgid "Subscription Renewal Payment Complete"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1611
+msgid "Subscription: Note to Customer Added"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:1839
+#: includes/class-wawp-flow-builder.php:2006
+#: includes/class-wawp-flow-builder.php:2008
+#: includes/class-wawp-flow-builder.php:2059
+#: includes/class-wawp-flow-builder.php:2061
+msgid "Customer"
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:2723
+msgid "None of the selected instances are online."
+msgstr ""
+
+#: includes/class-wawp-flow-builder.php:2872
+msgid "Permission denied"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:34
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:35
+msgid "Saved!"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:54
+msgid "You need to log in to manage your notifications."
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:64
+msgid "Notification preferences"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:75
+msgid "Receive login notifications"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:88
+msgid "Receive Orders notifications"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:93
+msgid "Save preferences"
+msgstr ""
+
+#: includes/class-wawp-notification-preferences.php:106
+msgid "Not logged in"
+msgstr ""
+
+#: includes/class-wawp-otp.php:39
+msgid "Unauthorized user"
+msgstr ""
+
+#: includes/class-wawp-otp.php:46 includes/class-wawp-otp.php:50
+#: includes/class-wawp-otp.php:55
+msgid "Wawp OTP Messages"
+msgstr ""
+
+#: includes/class-wawp-otp.php:67
+msgid ""
+"Login using OTP via WhatsApp or email to ensure a better user experience"
+msgstr ""
+
+#: includes/class-wawp-otp.php:75
+msgid "Customize the Signup experience on your site."
+msgstr ""
+
+#: includes/class-wawp-otp.php:83
+msgid "Verify customer numbers on checkout and reduce fake orders "
+msgstr ""
+
+#: includes/class-wawp-otp.php:90
+msgid "Login/Signup Pages"
+msgstr ""
+
+#: includes/class-wawp-otp.php:91
+msgid "Configure custom pages for login, signup, redirects, and integrations."
+msgstr ""
+
+#: includes/class-wawp-otp.php:98
+msgid "All OTP features are disabled. Enable them from the Dashboard toggles."
+msgstr ""
+
+#: includes/class-wawp-otp.php:114
+#: includes/helpers/class-awp-custom-pages-settings.php:66
+msgid "Copy"
+msgstr ""
+
+#: includes/class-wawp-otp.php:204
+#: includes/helpers/class-awp-custom-pages-settings.php:67
+msgid "Copied!"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:77
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:78
+msgid "Creating instance…"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:79
+msgid "Fetching QR code…"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:80
+msgid "Scan this code with WhatsApp on your phone."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:81
+msgid "Connected ✔ – saving…"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:82
+msgid "Number saved – continuing to next step…"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:83
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:85
+#: includes/class-wawp-setup-wizard.php:583
+msgid "Default country saved."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:141
+#: includes/class-wawp-setup-wizard.php:172
+msgid "Wawp Logo"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:142
+msgid "Welcome to Wawp!"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:143
+msgid ""
+"Our quick setup wizard makes getting started easy. It takes just seconds to "
+"configure basic settings. This guide is optional - let's begin!"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:149
+msgid "Create Free Account"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:152
+msgid "By continuing, you agree to the"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:152
+msgid "Terms of Service"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:152
+msgid "and"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:154
+msgid "Let's do it"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:157
+msgid "Wawp Connector plugin not active. Please install/activate it first."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:166
+msgid "Step 2"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:167
+msgid "Let's connect your site."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:168
+msgid "Once that's done, you'll have access to all the features of Wawp."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:177
+msgid "User avatar"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:179
+msgid "You'll connect your"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:179
+msgid "account on Wawp to this site."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:180
+msgid "Not You?"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:180
+msgid "Use a different account."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:182
+msgid "Not logged in. Please go back and log in first."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:188
+#: includes/class-wawp-setup-wizard.php:232
+#: includes/class-wawp-setup-wizard.php:251
+#: includes/class-wawp-setup-wizard.php:278
+msgid "Continue"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:196
+msgid "Step 3"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:197
+msgid "Syncing & System Health"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:198
+msgid ""
+"Sync your data and check for any system issues to get the most out of Wawp."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:203
+msgid ""
+"Sync your WordPress website with the Wawp plugin to enable users login and "
+"checkout via WhatsApp OTP and more."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:211
+msgid "System Health Check"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:219
+msgid "Check System Info"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:226
+msgid "Not logged in. Go back and log in first."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:239
+msgid "Step 4"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:240
+msgid "Scan QR Code to connect WhatsApp"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:241
+msgid ""
+"Use your phone to scan the code below. Once the number is online it will be "
+"saved automatically."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:245
+msgid "WhatsApp QR Code"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:259
+msgid "Step 5"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:260
+msgid "Configure Senders"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:261
+msgid "Assign your connected numbers to different features."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:264
+#, php-format
+msgid ""
+"To add or manage your connected WhatsApp & Email numbers, please visit the "
+"%sSender Settings%s page."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:286
+msgid "Finalizing Setup..."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:287
+msgid "Running final checks on your system configuration."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:296
+msgid "System Issues"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:299
+msgid "Your setup has issues that need attention."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:301
+msgid "Fix Issues Now"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:302
+msgid "Re-run Checks"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:307
+msgid "Welcome aboard!"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:308
+msgid "Your Wawp setup is complete. What would you like to do next?"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:310
+msgid "What's Next?"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:311
+msgid "Setup notification for Login and orders"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:312
+msgid "Setup OTP for Login/Signup/Checkout"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:313
+msgid "Setup Whatsapp button on Front end"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:314
+msgid "Enable/disable feature As you need"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:315
+msgid "Re-check system status"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:322
+msgid "Finish"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:490
+msgid "WooCommerce Notifications"
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:499
+msgid "Number(s) that will send WooCommerce event notifications."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:545
+msgid "Set the default country for phone number fields across your site."
+msgstr ""
+
+#: includes/class-wawp-setup-wizard.php:566
+msgid "Save Country"
+msgstr ""
+
+#: includes/country-code-list.php:23
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/country-code-list.php:29
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/country-code-list.php:31 includes/country-code-list.php:127
+#: includes/country-code-list.php:169 includes/country-code-list.php:199
+#: includes/country-code-list.php:229 includes/country-code-list.php:265
+#: includes/country-code-list.php:499 includes/country-code-list.php:517
+#: includes/country-code-list.php:523 includes/country-code-list.php:559
+#: includes/country-code-list.php:571 includes/country-code-list.php:589
+#: includes/country-code-list.php:595 includes/country-code-list.php:607
+#: includes/country-code-list.php:613 includes/country-code-list.php:667
+#: includes/country-code-list.php:685 includes/country-code-list.php:691
+#: includes/country-code-list.php:751 includes/country-code-list.php:775
+#: includes/country-code-list.php:793 includes/country-code-list.php:853
+#: includes/country-code-list.php:895 includes/country-code-list.php:997
+#: includes/country-code-list.php:1045 includes/country-code-list.php:1081
+#: includes/country-code-list.php:1087 includes/country-code-list.php:1099
+#: includes/country-code-list.php:1105 includes/country-code-list.php:1141
+#: includes/country-code-list.php:1189 includes/country-code-list.php:1207
+#: includes/country-code-list.php:1249
+msgid "Asia"
+msgstr ""
+
+#: includes/country-code-list.php:35
+msgid "Albania"
+msgstr ""
+
+#: includes/country-code-list.php:37 includes/country-code-list.php:55
+#: includes/country-code-list.php:85 includes/country-code-list.php:103
+#: includes/country-code-list.php:109 includes/country-code-list.php:139
+#: includes/country-code-list.php:145 includes/country-code-list.php:181
+#: includes/country-code-list.php:205 includes/country-code-list.php:307
+#: includes/country-code-list.php:319 includes/country-code-list.php:325
+#: includes/country-code-list.php:331 includes/country-code-list.php:379
+#: includes/country-code-list.php:403 includes/country-code-list.php:409
+#: includes/country-code-list.php:427 includes/country-code-list.php:433
+#: includes/country-code-list.php:445 includes/country-code-list.php:505
+#: includes/country-code-list.php:511 includes/country-code-list.php:541
+#: includes/country-code-list.php:547 includes/country-code-list.php:619
+#: includes/country-code-list.php:649 includes/country-code-list.php:655
+#: includes/country-code-list.php:661 includes/country-code-list.php:703
+#: includes/country-code-list.php:739 includes/country-code-list.php:745
+#: includes/country-code-list.php:757 includes/country-code-list.php:799
+#: includes/country-code-list.php:835 includes/country-code-list.php:841
+#: includes/country-code-list.php:901 includes/country-code-list.php:907
+#: includes/country-code-list.php:919 includes/country-code-list.php:925
+#: includes/country-code-list.php:961 includes/country-code-list.php:979
+#: includes/country-code-list.php:1003 includes/country-code-list.php:1009
+#: includes/country-code-list.php:1039 includes/country-code-list.php:1063
+#: includes/country-code-list.php:1069 includes/country-code-list.php:1159
+#: includes/country-code-list.php:1171 includes/country-code-list.php:1243
+#: includes/country-code-list.php:1261 includes/country-code-list.php:1321
+#: includes/country-code-list.php:1333 includes/country-code-list.php:1339
+#: includes/country-code-list.php:1345 includes/country-code-list.php:1369
+#: includes/country-code-list.php:1381 includes/country-code-list.php:1465
+#: includes/country-code-list.php:1501
+msgid "Europe"
+msgstr ""
+
+#: includes/country-code-list.php:41
+msgid "Algeria"
+msgstr ""
+
+#: includes/country-code-list.php:43 includes/country-code-list.php:61
+#: includes/country-code-list.php:157 includes/country-code-list.php:187
+#: includes/country-code-list.php:211 includes/country-code-list.php:217
+#: includes/country-code-list.php:223 includes/country-code-list.php:235
+#: includes/country-code-list.php:247 includes/country-code-list.php:253
+#: includes/country-code-list.php:277 includes/country-code-list.php:283
+#: includes/country-code-list.php:289 includes/country-code-list.php:301
+#: includes/country-code-list.php:337 includes/country-code-list.php:367
+#: includes/country-code-list.php:373 includes/country-code-list.php:385
+#: includes/country-code-list.php:391 includes/country-code-list.php:415
+#: includes/country-code-list.php:421 includes/country-code-list.php:439
+#: includes/country-code-list.php:469 includes/country-code-list.php:475
+#: includes/country-code-list.php:577 includes/country-code-list.php:631
+#: includes/country-code-list.php:637 includes/country-code-list.php:643
+#: includes/country-code-list.php:673 includes/country-code-list.php:679
+#: includes/country-code-list.php:697 includes/country-code-list.php:715
+#: includes/country-code-list.php:721 includes/country-code-list.php:763
+#: includes/country-code-list.php:769 includes/country-code-list.php:781
+#: includes/country-code-list.php:817 includes/country-code-list.php:823
+#: includes/country-code-list.php:931 includes/country-code-list.php:967
+#: includes/country-code-list.php:973 includes/country-code-list.php:985
+#: includes/country-code-list.php:991 includes/country-code-list.php:1021
+#: includes/country-code-list.php:1027 includes/country-code-list.php:1033
+#: includes/country-code-list.php:1051 includes/country-code-list.php:1093
+#: includes/country-code-list.php:1111 includes/country-code-list.php:1129
+#: includes/country-code-list.php:1153 includes/country-code-list.php:1219
+#: includes/country-code-list.php:1225 includes/country-code-list.php:1309
+#: includes/country-code-list.php:1375 includes/country-code-list.php:1453
+#: includes/country-code-list.php:1459 includes/country-code-list.php:1525
+msgid "Africa"
+msgstr ""
+
+#: includes/country-code-list.php:47
+msgid "American Samoa"
+msgstr ""
+
+#: includes/country-code-list.php:49 includes/country-code-list.php:97
+#: includes/country-code-list.php:397 includes/country-code-list.php:457
+#: includes/country-code-list.php:583 includes/country-code-list.php:709
+#: includes/country-code-list.php:733 includes/country-code-list.php:787
+#: includes/country-code-list.php:805 includes/country-code-list.php:829
+#: includes/country-code-list.php:859 includes/country-code-list.php:877
+#: includes/country-code-list.php:955 includes/country-code-list.php:1015
+#: includes/country-code-list.php:1117 includes/country-code-list.php:1147
+#: includes/country-code-list.php:1195 includes/country-code-list.php:1285
+#: includes/country-code-list.php:1291 includes/country-code-list.php:1303
+#: includes/country-code-list.php:1399 includes/country-code-list.php:1417
+#: includes/country-code-list.php:1423 includes/country-code-list.php:1429
+#: includes/country-code-list.php:1441 includes/country-code-list.php:1489
+#: includes/country-code-list.php:1495 includes/country-code-list.php:1519
+msgid "Oceania"
+msgstr ""
+
+#: includes/country-code-list.php:53
+msgid "Andorra"
+msgstr ""
+
+#: includes/country-code-list.php:59
+msgid "Angola"
+msgstr ""
+
+#: includes/country-code-list.php:65
+msgid "Anguilla"
+msgstr ""
+
+#: includes/country-code-list.php:71
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/country-code-list.php:77
+msgid "Argentina"
+msgstr ""
+
+#: includes/country-code-list.php:83
+msgid "Armenia"
+msgstr ""
+
+#: includes/country-code-list.php:89
+msgid "Aruba"
+msgstr ""
+
+#: includes/country-code-list.php:95
+msgid "Australia"
+msgstr ""
+
+#: includes/country-code-list.php:101
+msgid "Austria"
+msgstr ""
+
+#: includes/country-code-list.php:107
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/country-code-list.php:113
+msgid "Bahamas"
+msgstr ""
+
+#: includes/country-code-list.php:119
+msgid "Bahrain"
+msgstr ""
+
+#: includes/country-code-list.php:125
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/country-code-list.php:131
+msgid "Barbados"
+msgstr ""
+
+#: includes/country-code-list.php:137
+msgid "Belarus"
+msgstr ""
+
+#: includes/country-code-list.php:143
+msgid "Belgium"
+msgstr ""
+
+#: includes/country-code-list.php:149
+msgid "Belize"
+msgstr ""
+
+#: includes/country-code-list.php:155
+msgid "Benin"
+msgstr ""
+
+#: includes/country-code-list.php:161
+msgid "Bermuda"
+msgstr ""
+
+#: includes/country-code-list.php:167
+msgid "Bhutan"
+msgstr ""
+
+#: includes/country-code-list.php:173
+msgid "Bolivia"
+msgstr ""
+
+#: includes/country-code-list.php:179
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/country-code-list.php:185
+msgid "Botswana"
+msgstr ""
+
+#: includes/country-code-list.php:191
+msgid "Brazil"
+msgstr ""
+
+#: includes/country-code-list.php:197
+msgid "Brunei"
+msgstr ""
+
+#: includes/country-code-list.php:203
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/country-code-list.php:209
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/country-code-list.php:215
+msgid "Burundi"
+msgstr ""
+
+#: includes/country-code-list.php:221
+msgid "Cabo Verde"
+msgstr ""
+
+#: includes/country-code-list.php:227
+msgid "Cambodia"
+msgstr ""
+
+#: includes/country-code-list.php:233
+msgid "Cameroon"
+msgstr ""
+
+#: includes/country-code-list.php:239 includes/country-code-list.php:1229
+msgid "Canada"
+msgstr ""
+
+#: includes/country-code-list.php:245
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/country-code-list.php:251
+msgid "Chad"
+msgstr ""
+
+#: includes/country-code-list.php:257
+msgid "Chile"
+msgstr ""
+
+#: includes/country-code-list.php:263
+msgid "China"
+msgstr ""
+
+#: includes/country-code-list.php:269
+msgid "Colombia"
+msgstr ""
+
+#: includes/country-code-list.php:275
+msgid "Comoros"
+msgstr ""
+
+#: includes/country-code-list.php:281
+msgid "Congo, Democratic"
+msgstr ""
+
+#: includes/country-code-list.php:287
+msgid "Congo"
+msgstr ""
+
+#: includes/country-code-list.php:293
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/country-code-list.php:299
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: includes/country-code-list.php:305
+msgid "Croatia"
+msgstr ""
+
+#: includes/country-code-list.php:311
+msgid "Cuba"
+msgstr ""
+
+#: includes/country-code-list.php:317
+msgid "Cyprus"
+msgstr ""
+
+#: includes/country-code-list.php:323
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/country-code-list.php:329
+msgid "Denmark"
+msgstr ""
+
+#: includes/country-code-list.php:335
+msgid "Djibouti"
+msgstr ""
+
+#: includes/country-code-list.php:341
+msgid "Dominica"
+msgstr ""
+
+#: includes/country-code-list.php:347
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/country-code-list.php:353
+msgid "Ecuador"
+msgstr ""
+
+#: includes/country-code-list.php:359
+msgid "El Salvador"
+msgstr ""
+
+#: includes/country-code-list.php:365
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/country-code-list.php:371
+msgid "Eritrea"
+msgstr ""
+
+#: includes/country-code-list.php:377
+msgid "Estonia"
+msgstr ""
+
+#: includes/country-code-list.php:383
+msgid "Eswatini"
+msgstr ""
+
+#: includes/country-code-list.php:389
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/country-code-list.php:395
+msgid "Fiji"
+msgstr ""
+
+#: includes/country-code-list.php:401
+msgid "Finland"
+msgstr ""
+
+#: includes/country-code-list.php:407
+msgid "France"
+msgstr ""
+
+#: includes/country-code-list.php:413
+msgid "Gabon"
+msgstr ""
+
+#: includes/country-code-list.php:419
+msgid "Gambia"
+msgstr ""
+
+#: includes/country-code-list.php:425
+msgid "Georgia"
+msgstr ""
+
+#: includes/country-code-list.php:431
+msgid "Germany"
+msgstr ""
+
+#: includes/country-code-list.php:437
+msgid "Ghana"
+msgstr ""
+
+#: includes/country-code-list.php:443
+msgid "Greece"
+msgstr ""
+
+#: includes/country-code-list.php:449
+msgid "Grenada"
+msgstr ""
+
+#: includes/country-code-list.php:455
+msgid "Guam"
+msgstr ""
+
+#: includes/country-code-list.php:461
+msgid "Guatemala"
+msgstr ""
+
+#: includes/country-code-list.php:467
+msgid "Guinea"
+msgstr ""
+
+#: includes/country-code-list.php:473
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/country-code-list.php:479
+msgid "Guyana"
+msgstr ""
+
+#: includes/country-code-list.php:485
+msgid "Haiti"
+msgstr ""
+
+#: includes/country-code-list.php:491
+msgid "Honduras"
+msgstr ""
+
+#: includes/country-code-list.php:497
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/country-code-list.php:503
+msgid "Hungary"
+msgstr ""
+
+#: includes/country-code-list.php:509
+msgid "Iceland"
+msgstr ""
+
+#: includes/country-code-list.php:515
+msgid "India"
+msgstr ""
+
+#: includes/country-code-list.php:521
+msgid "Indonesia"
+msgstr ""
+
+#: includes/country-code-list.php:527
+msgid "Iran"
+msgstr ""
+
+#: includes/country-code-list.php:533
+msgid "Iraq"
+msgstr ""
+
+#: includes/country-code-list.php:539
+msgid "Ireland"
+msgstr ""
+
+#: includes/country-code-list.php:545
+msgid "Italy"
+msgstr ""
+
+#: includes/country-code-list.php:551
+msgid "Jamaica"
+msgstr ""
+
+#: includes/country-code-list.php:557
+msgid "Japan"
+msgstr ""
+
+#: includes/country-code-list.php:563
+msgid "Jordan"
+msgstr ""
+
+#: includes/country-code-list.php:569 includes/country-code-list.php:1247
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/country-code-list.php:575
+msgid "Kenya"
+msgstr ""
+
+#: includes/country-code-list.php:581
+msgid "Kiribati"
+msgstr ""
+
+#: includes/country-code-list.php:587
+msgid "North Korea"
+msgstr ""
+
+#: includes/country-code-list.php:593
+msgid "South Korea"
+msgstr ""
+
+#: includes/country-code-list.php:599
+msgid "Kuwait"
+msgstr ""
+
+#: includes/country-code-list.php:605
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/country-code-list.php:611
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/country-code-list.php:617
+msgid "Latvia"
+msgstr ""
+
+#: includes/country-code-list.php:623
+msgid "Lebanon"
+msgstr ""
+
+#: includes/country-code-list.php:629
+msgid "Lesotho"
+msgstr ""
+
+#: includes/country-code-list.php:635
+msgid "Liberia"
+msgstr ""
+
+#: includes/country-code-list.php:641
+msgid "Libya"
+msgstr ""
+
+#: includes/country-code-list.php:647
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/country-code-list.php:653
+msgid "Lithuania"
+msgstr ""
+
+#: includes/country-code-list.php:659
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/country-code-list.php:665
+msgid "Macao"
+msgstr ""
+
+#: includes/country-code-list.php:671
+msgid "Madagascar"
+msgstr ""
+
+#: includes/country-code-list.php:677
+msgid "Malawi"
+msgstr ""
+
+#: includes/country-code-list.php:683
+msgid "Malaysia"
+msgstr ""
+
+#: includes/country-code-list.php:689
+msgid "Maldives"
+msgstr ""
+
+#: includes/country-code-list.php:695
+msgid "Mali"
+msgstr ""
+
+#: includes/country-code-list.php:701
+msgid "Malta"
+msgstr ""
+
+#: includes/country-code-list.php:707
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/country-code-list.php:713
+msgid "Mauritania"
+msgstr ""
+
+#: includes/country-code-list.php:719
+msgid "Mauritius"
+msgstr ""
+
+#: includes/country-code-list.php:725
+msgid "Mexico"
+msgstr ""
+
+#: includes/country-code-list.php:731
+msgid "Micronesia"
+msgstr ""
+
+#: includes/country-code-list.php:737
+msgid "Moldova"
+msgstr ""
+
+#: includes/country-code-list.php:743
+msgid "Monaco"
+msgstr ""
+
+#: includes/country-code-list.php:749
+msgid "Mongolia"
+msgstr ""
+
+#: includes/country-code-list.php:755
+msgid "Montenegro"
+msgstr ""
+
+#: includes/country-code-list.php:761
+msgid "Morocco"
+msgstr ""
+
+#: includes/country-code-list.php:767
+msgid "Mozambique"
+msgstr ""
+
+#: includes/country-code-list.php:773
+msgid "Myanmar"
+msgstr ""
+
+#: includes/country-code-list.php:779
+msgid "Namibia"
+msgstr ""
+
+#: includes/country-code-list.php:785
+msgid "Nauru"
+msgstr ""
+
+#: includes/country-code-list.php:791
+msgid "Nepal"
+msgstr ""
+
+#: includes/country-code-list.php:797
+msgid "Netherlands"
+msgstr ""
+
+#: includes/country-code-list.php:803
+msgid "New Zealand"
+msgstr ""
+
+#: includes/country-code-list.php:809
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/country-code-list.php:815
+msgid "Niger"
+msgstr ""
+
+#: includes/country-code-list.php:821
+msgid "Nigeria"
+msgstr ""
+
+#: includes/country-code-list.php:827
+msgid "Niue"
+msgstr ""
+
+#: includes/country-code-list.php:833
+msgid "North Macedonia"
+msgstr ""
+
+#: includes/country-code-list.php:839
+msgid "Norway"
+msgstr ""
+
+#: includes/country-code-list.php:845
+msgid "Oman"
+msgstr ""
+
+#: includes/country-code-list.php:851
+msgid "Pakistan"
+msgstr ""
+
+#: includes/country-code-list.php:857
+msgid "Palau"
+msgstr ""
+
+#: includes/country-code-list.php:863
+msgid "Palestine"
+msgstr ""
+
+#: includes/country-code-list.php:869
+msgid "Panama"
+msgstr ""
+
+#: includes/country-code-list.php:875
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/country-code-list.php:881
+msgid "Paraguay"
+msgstr ""
+
+#: includes/country-code-list.php:887
+msgid "Peru"
+msgstr ""
+
+#: includes/country-code-list.php:893
+msgid "Philippines"
+msgstr ""
+
+#: includes/country-code-list.php:899
+msgid "Poland"
+msgstr ""
+
+#: includes/country-code-list.php:905
+msgid "Portugal"
+msgstr ""
+
+#: includes/country-code-list.php:911
+msgid "Qatar"
+msgstr ""
+
+#: includes/country-code-list.php:917
+msgid "Romania"
+msgstr ""
+
+#: includes/country-code-list.php:923 includes/country-code-list.php:1241
+msgid "Russia"
+msgstr ""
+
+#: includes/country-code-list.php:929
+msgid "Rwanda"
+msgstr ""
+
+#: includes/country-code-list.php:935
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/country-code-list.php:941
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/country-code-list.php:947
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/country-code-list.php:953
+msgid "Samoa"
+msgstr ""
+
+#: includes/country-code-list.php:959
+msgid "San Marino"
+msgstr ""
+
+#: includes/country-code-list.php:965
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/country-code-list.php:971
+msgid "Senegal"
+msgstr ""
+
+#: includes/country-code-list.php:977
+msgid "Serbia"
+msgstr ""
+
+#: includes/country-code-list.php:983
+msgid "Seychelles"
+msgstr ""
+
+#: includes/country-code-list.php:989
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/country-code-list.php:995
+msgid "Singapore"
+msgstr ""
+
+#: includes/country-code-list.php:1001
+msgid "Slovakia"
+msgstr ""
+
+#: includes/country-code-list.php:1007
+msgid "Slovenia"
+msgstr ""
+
+#: includes/country-code-list.php:1013
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1019
+msgid "Somalia"
+msgstr ""
+
+#: includes/country-code-list.php:1025
+msgid "South Africa"
+msgstr ""
+
+#: includes/country-code-list.php:1031
+msgid "South Sudan"
+msgstr ""
+
+#: includes/country-code-list.php:1037
+msgid "Spain"
+msgstr ""
+
+#: includes/country-code-list.php:1043
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/country-code-list.php:1049
+msgid "Sudan"
+msgstr ""
+
+#: includes/country-code-list.php:1055
+msgid "Suriname"
+msgstr ""
+
+#: includes/country-code-list.php:1061
+msgid "Sweden"
+msgstr ""
+
+#: includes/country-code-list.php:1067
+msgid "Switzerland"
+msgstr ""
+
+#: includes/country-code-list.php:1073
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/country-code-list.php:1079
+msgid "Taiwan"
+msgstr ""
+
+#: includes/country-code-list.php:1085
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/country-code-list.php:1091
+msgid "Tanzania"
+msgstr ""
+
+#: includes/country-code-list.php:1097
+msgid "Thailand"
+msgstr ""
+
+#: includes/country-code-list.php:1103
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/country-code-list.php:1109
+msgid "Togo"
+msgstr ""
+
+#: includes/country-code-list.php:1115
+msgid "Tonga"
+msgstr ""
+
+#: includes/country-code-list.php:1121
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/country-code-list.php:1127
+msgid "Tunisia"
+msgstr ""
+
+#: includes/country-code-list.php:1133
+msgid "Turkey"
+msgstr ""
+
+#: includes/country-code-list.php:1139
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/country-code-list.php:1145
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/country-code-list.php:1151
+msgid "Uganda"
+msgstr ""
+
+#: includes/country-code-list.php:1157
+msgid "Ukraine"
+msgstr ""
+
+#: includes/country-code-list.php:1163
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/country-code-list.php:1169
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/country-code-list.php:1181
+msgid "Uruguay"
+msgstr ""
+
+#: includes/country-code-list.php:1187
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/country-code-list.php:1193
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/country-code-list.php:1199
+msgid "Venezuela"
+msgstr ""
+
+#: includes/country-code-list.php:1205
+msgid "Vietnam"
+msgstr ""
+
+#: includes/country-code-list.php:1211
+msgid "Yemen"
+msgstr ""
+
+#: includes/country-code-list.php:1217
+msgid "Zambia"
+msgstr ""
+
+#: includes/country-code-list.php:1223
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/country-code-list.php:1253 includes/country-code-list.php:1255
+#: includes/country-code-list.php:1279 includes/country-code-list.php:1357
+#: includes/country-code-list.php:1363 includes/country-code-list.php:1483
+msgid "Antarctica"
+msgstr ""
+
+#: includes/country-code-list.php:1259
+msgid "Åland Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1265
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: includes/country-code-list.php:1271
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: includes/country-code-list.php:1277
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/country-code-list.php:1283
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1289
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1295
+msgid "Curaçao"
+msgstr ""
+
+#: includes/country-code-list.php:1301
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/country-code-list.php:1307
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/country-code-list.php:1313
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/country-code-list.php:1319
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1325
+msgid "French Guiana"
+msgstr ""
+
+#: includes/country-code-list.php:1331
+msgid "Guernsey"
+msgstr ""
+
+#: includes/country-code-list.php:1337
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/country-code-list.php:1343
+msgid "Greenland"
+msgstr ""
+
+#: includes/country-code-list.php:1349
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/country-code-list.php:1355
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1361
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1367
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/country-code-list.php:1373
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/country-code-list.php:1379
+msgid "Jersey"
+msgstr ""
+
+#: includes/country-code-list.php:1385
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1391
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/country-code-list.php:1397
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1403
+msgid "Martinique"
+msgstr ""
+
+#: includes/country-code-list.php:1409
+msgid "Montserrat"
+msgstr ""
+
+#: includes/country-code-list.php:1415
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/country-code-list.php:1421
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/country-code-list.php:1427
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/country-code-list.php:1433
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/country-code-list.php:1439
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/country-code-list.php:1445
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/country-code-list.php:1451
+msgid "Réunion"
+msgstr ""
+
+#: includes/country-code-list.php:1457
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: includes/country-code-list.php:1463
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/country-code-list.php:1469
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: includes/country-code-list.php:1475
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1481
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/country-code-list.php:1487
+msgid "Tokelau"
+msgstr ""
+
+#: includes/country-code-list.php:1493
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/country-code-list.php:1499
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: includes/country-code-list.php:1505
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/country-code-list.php:1511
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/country-code-list.php:1517
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/country-code-list.php:1523
+msgid "Mayotte"
+msgstr ""
+
+#: includes/country-code-list.php:1529
+msgid "Palestine 48 Lands"
+msgstr ""
+
+#: includes/helpers/class-awp-admin-notices.php:41
+msgid ""
+"No instance is online! Please connect an instance before using these "
+"features."
+msgstr ""
+
+#: includes/helpers/class-awp-admin-notices.php:49
+msgid "Add New Instance"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:38
+msgid "Sign Up"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:40
+msgid "Login Page Settings"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:41
+msgid "Signup Page Settings"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:42
+msgid "Fast Login Page Settings"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:43
+msgid "Redirect & Integration Settings"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:44
+msgid "Available Shortcodes"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:45
+msgid "Select Login Page"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:46
+msgid "Select Signup Page"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:47
+msgid "Select Fast Login Page"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:48
+msgid "Redirect wp-login.php"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:49
+msgid "Redirect My Account"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:50
+msgid "Replace WC Forms"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:51
+msgid "Phone Verification Bar"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:52
+msgid "Notification Preferences"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:53
+msgid ""
+"Select a page to use as the main login page. This will redirect /wp-login."
+"php and /my-account (for logged-out users)."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:54
+msgid "Select a page to use as the main signup page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:55
+msgid ""
+"Select a page for the [wawp-fast-login] shortcode. This setting does not "
+"enable any redirects."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:56
+msgid "Redirect default Login Page (wp-login.php & wp-admin)"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:57
+msgid ""
+"Redirect logged-out users from the \"My Account\" page to the custom login "
+"page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:58
+msgid ""
+"Replace the default WC login & registration forms on the \"My Account\" and "
+"\"Checkout\" pages."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:59
+msgid ""
+"Display the phone verification bar in the \"My Account\" area for unverified "
+"users."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:60
+msgid ""
+"Display the notification preferences section on the \"My Account\" page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:62
+#: includes/helpers/class-awp-custom-pages-settings.php:63
+#: includes/helpers/class-awp-custom-pages-settings.php:64
+msgid "Create & Set"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:68
+msgid "OTP Login Form"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:69
+msgid ""
+"Allow your users to login via WhatsApp / Email OTP by using this shortcode "
+"on any page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:70
+msgid "OTP Signup Form"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:71
+msgid ""
+"Allow new users to sign up using their phone number and an OTP verification."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:73
+msgid ""
+"Use the standard WooCommerce checkout form. OTP functionality is integrated "
+"if enabled."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:74
+msgid "Login/Signup Form"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:75
+msgid "Add login and signup forms on the same page for quick access."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:76
+msgid "User Notifications Preferences"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:77
+msgid ""
+"Allow your clients to enable/disable receiving notifications from their "
+"account page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:78
+msgid "Verify User Number"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:79
+msgid ""
+"Request that your clients confirm their phone number. Can be used on a "
+"popup, front page, or user account area."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:80
+#, php-format
+msgid "Don't have an account? <a href='%s'>Sign Up</a>"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:81
+#, php-format
+msgid "Already have an account? <a href='%s'>Login</a>"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:82
+#, php-format
+msgid "%s page has been created and set successfully."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:83
+msgid "There was an error creating or updating the page."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:84
+msgid "Security check failed!"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:85
+msgid "You do not have permission to create pages."
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:86
+msgid "Oops, unable to copy"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:87
+msgid "&mdash; Select a Page &mdash;"
+msgstr ""
+
+#: includes/helpers/class-awp-custom-pages-settings.php:88
+msgid "You have unsaved changes. Are you sure you want to leave?"
+msgstr ""
+
+#: integrations/block-patterns.php:12
+msgid "WAWP"
+msgstr ""
+
+#: integrations/block-patterns.php:22
+msgid "WAWP Login/Signup Form"
+msgstr ""
+
+#: integrations/block-patterns.php:23
+msgid "A combined login and signup form for WAWP."
+msgstr ""
+
+#: integrations/block-patterns.php:33
+msgid "WAWP Login Form"
+msgstr ""
+
+#: integrations/block-patterns.php:34
+msgid "A dedicated login form for WAWP."
+msgstr ""
+
+#: integrations/block-patterns.php:44
+msgid "WAWP Signup Form"
+msgstr ""
+
+#: integrations/block-patterns.php:45
+msgid "A dedicated signup form for WAWP."
+msgstr ""
+
+#: integrations/bricks-elements.php:22
+#: integrations/elementor-integration.php:28
+msgid "WAWP Login"
+msgstr ""
+
+#: integrations/bricks-elements.php:46
+#: integrations/elementor-integration.php:47
+msgid "WAWP Signup"
+msgstr ""
+
+#: integrations/bricks-elements.php:69
+#: integrations/elementor-integration.php:66
+msgid "WAWP Fast Login"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:76
+msgid "send now"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:77
+msgid "send after"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:79
+msgid "minutes"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:120
+msgid ""
+"Meta key must be lowercase, contain only letters, numbers, and underscores."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:121
+msgid "This meta key is already in use for a custom field."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:122
+msgid ""
+"This meta key conflicts with a standard field (e.g., first_name, email). "
+"Please choose a different key."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:123
+msgid "At least one option is required for this field type."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:124
+msgid ""
+"Are you sure you want to delete this custom field? User data associated with "
+"this field will NOT be deleted."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:129
+msgid "Failed to load logo image. Please check the URL or try uploading again."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:239
+msgid "Raw API Response Preview:"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:240
+msgid "API Response Data:"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:242
+msgid "Add New Manually"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:243
+msgid "Creating instance, please wait..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:244
+msgid "Fetching new QR code..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:245
+msgid "Scan this QR code with your WhatsApp app."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:246
+msgid "Failed to fetch QR code. Please try again or check API token."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:247
+msgid "Failed to create a new instance for QR scanning."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:248
+msgid "Waiting for QR scan... Checking status periodically."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:249
+msgid "Instance connected! Finalizing setup..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:250
+msgid "Instance still offline. Will try fetching a new QR code shortly."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:251
+msgid "Checking instance connection status..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:252
+msgid "Error checking instance status. Retrying..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:253
+msgid "WhatsApp successfully connected!"
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:254
+msgid "New WhatsApp number connected and saved."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:255
+msgid "Failed to save the new instance locally."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:256
+msgid "Page will refresh shortly."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:257
+msgid "Cannot connect by QR due to an existing issue or limit."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:258
+msgid ""
+"API Access Token is missing. Cannot connect by QR. Please check WAWP "
+"Connector settings."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:259
+msgid "Max polling attempts reached. Fetching a new QR code..."
+msgstr ""
+
+#: views/wawp-enqueue-scripts.php:260
+msgid "Instance may already be active. Attempting to verify connection..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid ""
+"Wawp OTP Verification, Order Notifications, and Country Code Selector for "
+"WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wawp.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Wawp is the best way to send & receive order updates, recover abandoned "
+"carts, drive repeat sales, and secure your store using OTP – all via "
+"WhatsApp."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "wawp.net"
+msgstr ""

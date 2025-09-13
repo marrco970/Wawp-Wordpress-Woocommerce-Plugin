@@ -1,0 +1,366 @@
+/* Ensure the Select2 dropdown stays above the wizard */
+#wawp-wizard-modal .select2-container {
+  z-index: 999999 !important;
+}
+
+#wawp-wizard-modal {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
+  font-family: 'Bricolage Grotesque', serif;
+}
+
+#wawp-wizard-content {
+    background: #fff;
+    position: relative;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    box-shadow: var(--xl-shadow);
+    overflow: scroll;
+}
+.buttons-sys-error {
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+#wawp-wizard-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 40px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #072929;
+  line-height: .5;
+  padding: 0;
+  opacity: .6;
+  font-weight: 200;
+}
+
+.wawp-step {
+  display: none;
+}
+.wawp-step.active {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#wawp-floating-launch {
+  background-color: #fff;
+  color: #044;
+  box-shadow: var(--xl-shadow);
+  align-items: center;
+}
+
+#wawp-floating-launch:hover,
+#wawp-floating-launch:active,
+#wawp-floating-launch:focus {
+    opacity: .9;
+}
+
+.wawp-progress-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  background: #fff;
+}
+
+.wawp-progress-step {
+  width: 36px;
+  height: 6px;
+  border-radius: 10px;
+  background: #E2E2E2;
+  position: relative;
+}
+.wawp-progress-step.active {
+  background: var(--wawp-green);
+}
+.wawp-progress-step::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 4px;
+  background: #444;
+  z-index: -1;
+}
+.wawp-progress-step:last-child::after {
+  display: none;
+}
+
+/* Hide the second progress container at the bottom if desired */
+#wawp-wizard-content > .wawp-progress-container:last-of-type {
+  display: none !important;
+}
+
+#wawp-wizard-content h1 {
+  font-size: 36px;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--heading);
+  font-weight: 700;
+}
+
+#wawp-wizard-content p {
+    color: var(--text);
+    font-size: 16px !important;
+}
+
+.wawp-finish-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.wawp-finish-actions .awp-btn {
+  height: 44px;
+}
+
+.step-txt {
+    font-weight: 700;
+    color:  var(--wawp-green) !important;;
+    letter-spacing: 1px;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  gap: 40px;
+}
+
+.step-content .sync-card {
+    padding: 12px;
+    border: var(--border);
+    box-shadow: var(--sm-shadow);
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding-inline-start: 16px;
+    width: 660px;
+    justify-content: space-between;
+}
+
+.awp-wizard-links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px;
+    border: 1px solid var(--heading);
+    border-radius: 12px;
+    box-shadow: var(--sm-shadow);
+    background: #fff;
+    color: var(--heading);
+    cursor: pointer;
+}
+
+/* Step footer */
+.wawp-step-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-top: var(--border);
+  padding-top: 24px;
+  margin-top: 24px;
+}
+
+.wawp-step-footer button,
+.wawp-step-footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--wawp-green);
+  color: #fff;
+  transition: background 0.15s ease-in-out;
+  width: 160px;
+}
+
+.wawp-step-footer button:hover,
+.wawp-step-footer a:hover {
+  background-color: var(--wawp-green-hover);
+}
+
+.wawp-step-footer [class*=" ri-"], .wawp-step-footer [class^="ri-"] {
+  font-size: 18px !important;
+}
+
+.wawp-btn-back.wawp-prev-btn {
+  background: #fff;
+  color: var(--text);
+  border: var(--border);
+}
+
+.wawp-btn-back.wawp-prev-btn:hover {
+  background: #fafafa;
+  color: var(--heading);
+}
+
+
+#wawp-wizard-close.awp-save {
+  position: relative;
+  opacity: 1;
+  color: #fff;
+  top: auto;
+  right: auto;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+/* Accordion styling for logs */
+.wawp-accordion {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.wawp-accordion-header {
+  background: #eee;
+  padding: 10px;
+  user-select: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wawp-accordion-header::after {
+  display: none !important;
+}
+
+.wawp-log-toggle {
+  background: #ccc;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.wawp-accordion-content {
+  display: none;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.wawp-accordion.open .wawp-accordion-content {
+  display: block;
+}
+
+#wawp-sync-frame {
+  display: none;
+}
+
+/*
+ * Styles for Step 6 Final Checker
+ */
+.wawp-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+.wawp-checklist li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.wawp-checklist .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  line-height: 1;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+/* Loading Spinner Icon */
+.wawp-checklist .icon.loading {
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #3498db;
+    border-radius: 50%;
+    animation: wawp-wizard-spin 1s linear infinite;
+}
+
+@keyframes wawp-wizard-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Success and Error Icons (using RemixIcon font) */
+.wawp-checklist .icon.success::before,
+.wawp-checklist .icon.error::before {
+    font-family: 'remixicon' !important; /* Make sure this matches your font name */
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.wawp-checklist .icon.success::before {
+    content: '\ea10'; /* RemixIcon check-line */
+    color: #28a745;
+}
+
+.wawp-checklist .icon.error::before {
+    content: '\ea0f'; /* RemixIcon close-line */
+    color: #c00;
+}
+
+/* Progress Bar */
+.wawp-progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.wawp-progress-bar {
+    width: 0%;
+    height: 10px;
+    background-color: #4caf50;
+    transition: width 0.4s ease-in-out;
+}
+

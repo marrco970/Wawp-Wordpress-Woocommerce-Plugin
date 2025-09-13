@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+#wpbody-content {
+   font-family: "IBM Plex Sans Arabic", serif;
+}
+#wawp-wizard-modal {
+   font-family: "IBM Plex Sans Arabic", serif;
+}
+.step-content {
+   font-family: "IBM Plex Sans Arabic", serif;
+}
+#wawp-wizard-content {
+  font-family: "IBM Plex Sans Arabic", serif;
+}
+#wawp-wizard-content h1 {
+
+  font-family: "IBM Plex Sans Arabic", serif;
+}
+* {
+  font-family: "IBM Plex Sans Arabic", serif !important;
+}
+#awp_notifications_user_login_image_url {
+  direction: rtl ;
+}
+.emojionearea .emojionearea-button {
+  left: 8px !important;
+  top: 8px !important;
+  right: auto !important;
+}
+.placeholder-containerlogin, .placeholder-container, .placeholder-container-checkout, .placeholder-container-signup {
+  position: absolute;
+  top: 8px !important;
+  right: auto !important;
+  left: 36px !important;
+}
+.emojionearea-editor {
+  direction: rtl;
+}
+th {
+  text-align: right !important;
+}
+.regular-text {
+  direction: rtl !important;
+}
+#wawp-floating-launch {
+  font-family: "IBM Plex Sans Arabic", serif !important;
+}
+.awp-condition-group .awp-remove-condition {
+  right: auto !important;
+  left: 16px !important;
+}
+.placeholder-dropdown {
+  left: 35px;
+  margin-right: auto;
+}
+.emojionearea .emojionearea-editor {
+  min-height: 10em !important;
+  max-height: 10em !important;
+  color: var(--text ) !important;
+  padding: 12px 12px 16px 60px !important;
+  background: #fcfcfc !important;
+  border-radius: 12px !important;
+}
+#awp_whatsapp_messages {
+  width: 100% !important;
+  direction: ltr !important;
+  padding-left: 50px !important;
+}
+.iti__selected-flag {
+  direction: ltr !important;
+}
